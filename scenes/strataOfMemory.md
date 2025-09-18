@@ -1,7 +1,5 @@
 # Strata of Memory
 
-# Strata of Memory
-
 **Concept**  
 A layered landscape representing depth of memory.
 
