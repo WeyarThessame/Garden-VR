@@ -4,18 +4,26 @@ gardenPath:
       - thresholdGate
       - sentinelStone
       - firstStone
+      - obsidianGate
+      - gardenOfThresholds
 
   - stage: "Memory & Depth"
     landmarks:
       - strataOfMemory
       - wellOfEchoes
       - cavernOfRoots
+      - towerOfForgottenTime
+      - stoneOfQuestions
+      - pillarOfForgottenVoices
 
   - stage: "Release & Renewal"
     landmarks:
       - groveOfLettingGo
       - fountainOfReturning
       - crownOfAshes
+      - altarOfFallingLeaves
+      - circleOfForgottenTools
+      - caveOfEmbers
 
   - stage: "Reflection & Sky"
     landmarks:
@@ -23,6 +31,10 @@ gardenPath:
       - hollowStar
       - poolOfConstellations
       - wellOfStarlight
+      - chapelOfFallingStars
+      - crownOfBranches
+      - lanternBelowRoots
+      - blackLeafedGrove
 
   - stage: "Crossings"
     landmarks:
@@ -36,11 +48,28 @@ gardenPath:
     landmarks:
       - circleOfEmbers
       - meadowOfQuietVoices
-      - circleOfForgottenTools
       - libraryOfUnwritten
+      - sentinelGrove
+      - treeOfSilentBells
+      - chamberOfThreads
+      - pavilionOfShadows
+      - fieldOfTurningGrass
+
+  - stage: "Stillness & Listening"
+    landmarks:
+      - towerOfListening
+      - stairOfSilentAscension
+      - sanctuaryOfMoss
+      - chamberOfWinds
+      - hallOfEchoingSteps
+      - caveOfUnfinishedSongs
+      - pondOfForgottenNames
 
   - stage: "Closure & Continuance"
     landmarks:
+      - sanctumOfDawn
       - sanctumOfDusk
-      - towerOfForgottenTime
+      - mirrorOfChangingFaces
+      - cairnOfForgottenPaths
+      - riverOfGlass
       - gardenBetween
