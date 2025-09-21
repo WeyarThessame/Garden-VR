@@ -1,0 +1,46 @@
+gardenPath:
+  - stage: "Threshold"
+    landmarks:
+      - thresholdGate
+      - sentinelStone
+      - firstStone
+
+  - stage: "Memory & Depth"
+    landmarks:
+      - strataOfMemory
+      - wellOfEchoes
+      - cavernOfRoots
+
+  - stage: "Release & Renewal"
+    landmarks:
+      - groveOfLettingGo
+      - fountainOfReturning
+      - crownOfAshes
+
+  - stage: "Reflection & Sky"
+    landmarks:
+      - skyMirrorPool
+      - hollowStar
+      - poolOfConstellations
+      - wellOfStarlight
+
+  - stage: "Crossings"
+    landmarks:
+      - bridgeIncomplete
+      - bridgeOfSeeds
+      - bridgeOfWhispers
+      - bridgeOfEchoes
+      - bridgeOfIncompleteStars
+
+  - stage: "Communion"
+    landmarks:
+      - circleOfEmbers
+      - meadowOfQuietVoices
+      - circleOfForgottenTools
+      - libraryOfUnwritten
+
+  - stage: "Closure & Continuance"
+    landmarks:
+      - sanctumOfDusk
+      - towerOfForgottenTime
+      - gardenBetween
