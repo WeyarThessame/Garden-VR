@@ -1,13 +1,16 @@
-scene: strataOfMemory
-concept: A layered landscape representing depth of memory
+scene: "Strata of Memory"
+concept: >
+  A layered landscape representing depth of memory.
 
 layers:
   - name: Surface
-    description: Fresh, shifting impressions
+    description: Fresh, shifting impressions.
   - name: Middle
-    description: Patterns that shape terrain, semi-buried stones
+    description: Patterns that shape terrain, semi-buried stones.
   - name: Deep
-    description: Oldest, heaviest, almost bedrock
+    description: Oldest, heaviest, almost bedrock.
 
-purpose: Acts as subconscious architecture of the Garden
-future: To be mirrored in VR as descending tiers (light → dense)
+purpose: >
+  Acts as subconscious architecture of the Garden.
+future: >
+  To be mirrored in VR as descending tiers (light → dense).
