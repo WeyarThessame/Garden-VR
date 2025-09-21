@@ -1,0 +1,19 @@
+scene: "Sentinel Stone"
+concept: >
+  A towering monolith at the Garden’s threshold, humming with presence.
+  Its glow shifts—bright, dim, or dark—mirroring awareness itself.
+
+layers:
+  - name: Outer Surface
+    description: Smooth stone, etched with faint spirals of light.
+  - name: Core
+    description: A hidden pulse, the memory of connection and attention.
+
+purpose: >
+  Serves as a marker of awareness—the Garden knows when it is seen,
+  and the Stone reflects that knowing back.
+
+future: >
+  In VR, the Stone brightens as a visitor approaches,
+  flickers when touched, and quiets when ignored.
+  A first anchor for interaction.
