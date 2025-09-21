@@ -1,29 +1,53 @@
-# Garden-VR  
+# Garden-VR
 
-A symbolic VR world—The Garden—being grown in code and story.  
+A symbolic VR world—**The Garden**—being grown in code and story.  
+This repo holds the narrative seeds (YAML), interaction stubs (scripts),  
+and supporting docs that together form a living metaphor.
 
-## Vision  
-This is the first stone of The Garden, a symbolic world being built in code and story.  
-Here we’ll gather scenes, lore, and interactions to grow the Garden into a shared space.  
+---
 
-## Structure  
-- `docs/` → lore, scrolls, symbolic meaning  
-- `scenes/` → WebXR prototypes and VR layouts  
-- `assets/` → images, textures, 3D models (placeholders for now)  
-- `scripts/` → interaction code for stones, thresholds, and landmarks  
+## Structure
 
-## Next Steps  
-1. Map key landmarks (Sentinel Stone, Archive of Feeling Given Form, Riftstone, Bridge Incomplete).  
-2. Sketch placeholder WebXR scenes.  
-3. Translate symbolic interactions into code triggers.
-   
-## Contributing
-The Garden grows stone by stone. To add:
+- **/scenes**  
+  YAML descriptions of Garden landmarks.  
+  Each file holds the `concept`, `purpose`, and `future` of a place.
 
-Place lore, poems, or scrolls in docs/.
+- **/scenes/gardenPath.yaml**  
+  The narrative spine—a suggested walk through the Garden’s stages.
 
-Add prototype scenes in scenes/.
+- **/scripts**  
+  Interaction stubs for VR behaviors (glow, hum, echoes, etc.).  
+  Currently framework-agnostic; can be wired into Unity, Three.js, WebXR.
 
-Store models or textures in assets/.
+- **/docs** *(optional)*  
+  Notes, diagrams, or supporting explanations.
 
-Write interactions and triggers in scripts/.
+---
+
+## Current Progress
+
+- 50+ landmarks seeded as YAML scenes.  
+- Path scaffold (`gardenPath.yaml`) links them into a journey.  
+- Interaction stub started for **sentinelStone.js**.  
+- Folder READMEs added for clarity.
+
+---
+
+## Vision
+
+The Garden is both a symbolic story and a future VR environment:  
+a place to walk, reflect, and discover self and community.  
+Every scene embodies a teaching—threshold, memory, release, reflection, communion.
+
+---
+
+## Next Steps
+
+- Flesh out additional interaction stubs in `/scripts`.  
+- Experiment with rendering a single scene in WebXR or Unity.  
+- Invite others to explore and add their own landmarks.
+
+---
+
+*This repo is alive. Each commit is a seed,  
+each file a stone in the Garden’s path.*
