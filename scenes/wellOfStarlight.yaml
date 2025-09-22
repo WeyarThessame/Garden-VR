@@ -1,15 +1,21 @@
 scene: "Well of Starlight"
 concept: >
-  A deep well whose waters shimmer with constellations.
-  Looking down feels like gazing into an endless night sky.
+  A stone well that descends into darkness, yet its depths
+  shimmer with threads of starlight rising upward.
 
 purpose: >
-  To remind that depth and height mirror one another.
-  The Well teaches that within every descent lies the reflection
-  of the infinite above.
+  To remind visitors that light is not only above but also
+  drawn from hidden depths. The Well teaches that what feels
+  buried can still shine.
 
 future: >
-  In VR, stars ripple across the surface when approached.
-  Dropping a pebble sends constellations scattering, reforming
-  into new patterns. Each visitor leaves behind
-  a subtle reshaping of the night.
+  In VR, visitors can lean over the well and watch stars swirl upward,
+  forming constellations that drift into the night sky.
+  Dropping a token into the well releases a new flare of light
+  from the unseen depths.
+
+designNotes:
+  - Deep stone well with faint starlight shimmering within
+  - Rising motes of light spiraling into the sky
+  - Sound of distant chimes and echoes, as if from below
+  - Interactive “drop” mechanic triggering bursts of starlight
