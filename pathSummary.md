@@ -16,12 +16,12 @@
 - **Pillar of Forgotten Voices** — whispers from eroded inscriptions.
 
 ## Release & Renewal
-- **Grove of Letting Go** — leaves falling, release into light.
-- **Fountain of Returning** — water cycles outward and back.
-- **Crown of Ashes** — endings transformed to soil.
-- **Altar of Falling Leaves** — offerings carried away by trees.
-- **Circle of Forgotten Tools** — honoring old labors.
-- **Cave of Embers** — quiet, sustaining warmth.
+- **groveOfLettingGo** — A secluded grove where burdens are released, offerings dissolve into light, and space is made for renewal.  
+- **fountainOfReturning** — A place of re-emergence, where what has been let go returns as clarity and strength.  
+- **crownOfAshes** — The cycle of endings crowned as beginnings.  
+- **Altar of Falling Leaves** — offerings carried away by trees.  
+- **Circle of Forgotten Tools** — honoring old labors.  
+- **Cave of Embers** — quiet, sustaining warmth.  
 
 ## Reflection & Sky
 - **Sky Mirror Pool** — reflection of sky and self.
