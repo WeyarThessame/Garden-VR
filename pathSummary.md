@@ -38,7 +38,9 @@
 - **Bridge of Seeds** — steps planting renewal.
 - **Bridge of Whispers** — voices carried across.
 - **Bridge of Echoes** — footsteps remembered.
+- **Bridge of Dawn** — a radiant span glowing with the first light, carrying travelers into new beginnings.
 - **Bridge of Incomplete Stars** — striving without arrival.
+
 
 ## Communion
 - **Circle of Embers** — communal hearth.
