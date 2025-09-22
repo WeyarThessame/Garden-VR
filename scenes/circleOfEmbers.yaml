@@ -1,15 +1,21 @@
 scene: "Circle of Embers"
 concept: >
-  A ring of stones cradling glowing embers that never fully die.
-  The warmth is steady, not blazing, inviting people to gather close.
+  A wide stone circle with embers glowing at its heart.
+  The warmth is steady, inviting all to gather.
 
 purpose: >
-  Serves as a communal heart, a place for voices to meet.
-  The Circle reminds that fire is not only for survival,
-  but for story, kinship, and continuity.
+  To embody shared presence. The Circle teaches that communion
+  doesn’t require words—just warmth, nearness, and trust.
 
 future: >
-  In VR, the embers brighten when multiple visitors sit nearby.
-  Their glow shifts subtly with the tone of conversation—
-  warm gold for laughter, deep red for silence,
-  violet for shared grief.
+  In VR, visitors may sit around the embers. As more people gather,
+  the glow brightens, and faint harmonics rise from the fire.
+  Departures dim the light, but even a single presence keeps
+  the embers alive.
+
+designNotes:
+  - Broad stone ring with glowing embers in the center
+  - Firelight flickers softly on faces and surrounding stones
+  - Dynamic brightness based on number of visitors present
+  - Sound of low crackling layered with harmonic undertones
+
