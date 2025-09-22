@@ -1,21 +1,20 @@
-scene: "Crown of Ashes"
+scene: "Altar of Falling Leaves"
 concept: >
-  A circle of blackened stone where fire has burned itself out,
-  leaving only ash that glows faintly in the wind.
-  Above it, faint sparks trace a crown-shape in the night air.
+  A raised stone altar beneath towering trees.
+  Leaves drift constantly down, carrying away whatever is placed upon the altar.
 
 purpose: >
-  To honor endings as beginnings. What has burned away becomes soil
-  for the future; the ash itself is crowned, reminding visitors that
-  loss carries dignity and hidden renewal.
+  To provide a ritual site where offerings—objects, words, or memories—
+  are entrusted to the cycle of letting go.
+  The altar teaches that even weighty burdens can be carried lightly by the world.
 
 future: >
-  In VR, visitors can kneel to gather ash in their hands.
-  As they lift it, embers flare briefly, then drift upward to join the crown of sparks.
-  Each gesture transforms grief into quiet beauty.
+  In VR, visitors can place tokens onto the altar.
+  Each offering is slowly covered by falling leaves until it disappears,
+  the trees whispering as they receive what has been given.
 
 designNotes:
-  - A stone ring filled with soft, glowing ash
-  - Occasional ember flares rising and fading into the sky
-  - A hovering crown-shape of sparks forming and dissolving overhead
-  - Warm ambient hum with low undertones, evoking endings and persistence
+  - Central stone altar, weathered and mossy
+  - Endless cascade of leaves drifting from unseen canopy
+  - Soft rustling sound, punctuated by whispers of release
+  - Gentle glow as offerings dissolve beneath the leaves
