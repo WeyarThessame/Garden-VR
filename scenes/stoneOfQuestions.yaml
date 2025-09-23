@@ -1,15 +1,24 @@
 scene: "Stone of Questions"
 concept: >
-  A low, rounded stone carved with countless shallow grooves.
-  When approached, the marks seem almost like letters,
-  but never resolve into words.
+  A massive, low boulder inscribed with countless grooves and hollows.
+  No two markings are alike, and none carry clear answers.
 
 purpose: >
-  Invites reflection without clear answers.
-  The Stone teaches that questions themselves are sacred,
-  carrying weight even when no reply is given.
+  To embody inquiry without resolution.
+  The Stone teaches that questions shape the path as much as answers,
+  and that not-knowing is a place to rest as well as move from.
 
 future: >
-  In VR, the grooves shimmer faintly when touched.
-  Visitors hear fragments of whispered questions,
-  not their own, but echoes left by others who lingered here.
+  In VR, visitors can trace the grooves with hand or gaze.
+  Each contact produces a resonant tone, distinct but unfinished,
+  which fades before forming into melody. Pausing at a groove
+  allows faint voices of past wonderings to surface, layered and unresolved.
+
+designNotes:
+  - Large irregular boulder, surface covered in grooves and etched hollows
+  - Variable emissive glow when grooves are touched or examined
+  - Sound system: each groove mapped to unique, unresolved tone
+  - Ambient whisper layer surfacing fragments of questions (“why,” “what if,” “how long”)
+  - Optional interaction: visitors may add a new groove, which glows briefly
+    before settling into the stone
+  - Lighting subdued, emphasizing mystery and ambiguity
