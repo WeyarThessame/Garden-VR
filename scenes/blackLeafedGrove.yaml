@@ -1,16 +1,25 @@
 scene: "Black-Leafed Grove"
 concept: >
-  A stand of trees with leaves so dark they swallow light.
-  At first they appear lifeless, but in stillness they shimmer faintly,
-  like night sky caught in foliage.
+  A stand of trees with leaves so dark they seem to drink the light.
+  The grove is quiet, yet beauty lingers in its shadowed form.
 
 purpose: >
-  A place of mystery and unease, reminding that not all beauty
-  is comfortable. The Grove teaches that shadow and obscurity
-  have their own truths.
+  To honor the hidden beauty within darkness.
+  The Grove teaches that not all growth is bright—
+  some thrives in shadow, shaping balance and depth.
 
 future: >
-  In VR, the Grove deepens shadows as visitors enter,
-  muffling outside sound. When one lingers long enough,
-  the leaves reveal constellations within their veins,
-  mapping paths unseen elsewhere in the Garden.
+  In VR, visitors walk among the black leaves which shimmer faintly
+  when touched by starlight. Moving through the grove alters
+  the soundscape: hushed tones, faint chimes, low pulses.
+  Sitting still allows the grove’s quiet to deepen, wrapping visitors
+  in a soft, protective dark.
+
+designNotes:
+  - Tall trees with jet-black leaves that absorb most light
+  - Occasional starlight glints along leaf edges
+  - Interactive shimmer effect when visitors brush past branches
+  - Ambient audio: layered low tones, rustles, and soft chimes
+  - Subtle mist on the ground, adding depth and mystery
+  - Contrast between deep shadow and rare, sharp sparkles of light
+
