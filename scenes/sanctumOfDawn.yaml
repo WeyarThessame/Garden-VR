@@ -1,15 +1,22 @@
 scene: "Sanctum of Dawn"
 concept: >
-  A circular chamber open to the east. At its heart rests a pool
-  that catches the first rays of morning, scattering them
-  across the walls in shifting colors.
+  A quiet sanctum opening to the first light of day.
+  The space glows softly, welcoming renewal.
 
 purpose: >
-  A place of renewal and beginning. The Sanctum teaches that
-  every day carries its own genesis, and that dawn is less
-  a moment than a promise.
+  To embody beginnings as sacred.
+  The Sanctum teaches that each day is both
+  an ending and a start.
 
 future: >
-  In VR, the chamber brightens only when the visitor faces east.
-  The light grows as they remain, painting the walls with hues
-  of gold, rose, and blue—each entrance a new sunrise.
+  In VR, visitors enter as the horizon brightens.
+  Light spills slowly across the floor,
+  accompanied by distant birdsong.
+  Standing in stillness lets the glow
+  seep into their form.
+
+designNotes:
+  - Enclosed stone chamber opening eastward
+  - Light transitions from pre-dawn dimness to golden glow
+  - Gentle soundscape of waking birds and breeze
+  - Surfaces reflecting warm hues as day rises
