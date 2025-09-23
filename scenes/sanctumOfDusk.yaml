@@ -1,14 +1,22 @@
 scene: "Sanctum of Dusk"
 concept: >
-  A chamber open to the west, where the last light of day
-  filters through latticework stone. Shadows lengthen into
-  patterns like written script across the floor.
+  A chamber bathed in the last light of day.
+  Shadows lengthen across its walls as night approaches.
 
 purpose: >
-  A place of completion and release. The Sanctum teaches that
-  endings are not loss, but the settling of light into memory.
+  To honor endings as sacred.
+  The Sanctum teaches that closure is not loss,
+  but a passage into rest and renewal.
 
 future: >
-  In VR, the chamber responds to the visitor’s presence:
-  the colors of sunset deepen as they linger,
-  fading slowly into starlight when they depart.
+  In VR, visitors arrive as the sun sinks low.
+  Colors shift from gold to deep indigo,
+  and the chamber fills with evening sounds—
+  crickets, distant owls, soft winds.
+  Sitting in stillness lets the darkness enfold gently.
+
+designNotes:
+  - Chamber opening westward toward sunset
+  - Dynamic light fading from warm to cool tones
+  - Ambient night sounds layered gradually
+  - Atmosphere of peace and completion
