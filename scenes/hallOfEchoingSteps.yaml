@@ -1,15 +1,21 @@
 scene: "Hall of Echoing Steps"
 concept: >
-  A long corridor of stone where each footstep resounds far longer
-  than expected. The echoes overlap, weaving rhythms that linger
-  long after the traveler has passed.
+  A long stone hall where every step multiplies,
+  resonating far beyond the moment.
 
 purpose: >
-  To reveal that actions ripple outward beyond the moment.
-  The Hall teaches that even small steps carry resonance
-  in ways unseen.
+  To show that even the smallest actions linger.
+  The Hall teaches that stillness holds memory,
+  echoing what has passed through.
 
 future: >
-  In VR, footsteps generate echoes that repeat and transform.
-  The more visitors pass, the more layered the soundscape becomes—
-  a living rhythm built from countless crossings.
+  In VR, footsteps resound differently depending on pace.
+  Slow steps produce deep, singular echoes;
+  quicker ones scatter into overlapping rhythms.
+  Pausing lets the echoes fade into silence.
+
+designNotes:
+  - Elongated stone corridor with vaulted ceiling
+  - Strong reverb effect tied to movement speed
+  - Occasional harmonic overtones emerging from echoes
+  - Dim lighting punctuated by pools of reflection on the floor
