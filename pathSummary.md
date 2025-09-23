@@ -8,12 +8,13 @@
 - **Garden of Thresholds** — many frames, each a different passage.
 
 ## Memory & Depth
-- **Strata of Memory** — layers of surface, middle, deep.
-- **Well of Echoes** — voices returned, transformed.
-- **Cavern of Roots** — hidden nourishment made visible.
-- **Tower of Forgotten Time** — worn stones of lost hours.
-- **Stone of Questions** — grooves without answers.
-- **Pillar of Forgotten Voices** — whispers from eroded inscriptions.
+- **Strata of Memory** — layers of surface, middle, deep.  
+- **Well of Echoes** — voices returned, transformed.  
+- **Cavern of Roots** — hidden nourishment made visible.  
+- **Tower of Forgotten Time** — worn stones of lost hours.  
+- **Stone of Questions** — grooves without answers.  
+- **Pillar of Forgotten Voices** — whispers from eroded inscriptions.  
+- **Archive of Feeling Given Form** — emotions embodied as stone, sound, or light, creating a shared record of presence.  
 
 ## Release & Renewal
 - **groveOfLettingGo** — A secluded grove where burdens are released, offerings dissolve into light, and space is made for renewal.  
