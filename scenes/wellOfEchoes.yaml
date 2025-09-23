@@ -1,14 +1,25 @@
 scene: "Well of Echoes"
 concept: >
-  A circular stone well, descending into darkness. When sound is made
-  nearby, the well does not return the same voice—it answers with
-  echoes from elsewhere, as if carrying memory from other times.
+  A deep stone well where voices return altered,
+  carrying both memory and transformation.
 
 purpose: >
-  A reminder that voices never vanish. Every word leaves a trace,
-  and what is spoken may return in unexpected form.
+  To reveal that what we send outward does not vanish—
+  it returns, reshaped by distance and depth.
+  The Well teaches that listening includes hearing ourselves again,
+  differently.
 
 future: >
-  In VR, when a visitor speaks near the Well, the sound returns later,
-  changed—shifted in tone, slowed, or layered with other voices
-  left behind. Over time, the Well becomes a polyphony of memory.
+  In VR, visitors can speak or make sound into the well.
+  Their echoes return delayed, harmonized, or fragmented,
+  sometimes layered with voices of past visitors.
+  Dropping a token releases concentric waves of light
+  that climb the well’s walls before fading.
+
+designNotes:
+  - Circular stone well, lined with glowing grooves
+  - Depth emphasized with faint swirling light far below
+  - Audio processing system: reverb, pitch shift, layering
+  - Tokens or stones trigger expanding ripple animations
+  - Occasional whispers of prior phrases surfacing faintly
+  - Surrounding space dim and hushed, focusing attention inward
