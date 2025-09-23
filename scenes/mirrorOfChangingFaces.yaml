@@ -1,16 +1,22 @@
 scene: "Mirror of Changing Faces"
 concept: >
-  A tall, rippling mirror of silvered glass. It reflects the visitor,
-  but the face is never fixed—features blur, shift, and transform
-  into other visages.
+  A tall mirror framed in silver and stone.
+  Its surface never stays the same—faces appear,
+  shift, and dissolve, blending self with others.
 
 purpose: >
-  To remind that identity is fluid, not a single mask.
-  The Mirror teaches that we are many selves across time,
-  and that change is not loss but unfolding.
+  To remind that identity is fluid.
+  The Mirror teaches that closure comes not from
+  fixing who we are, but from allowing change.
 
 future: >
-  In VR, the reflection shifts with each glance—sometimes older,
-  sometimes younger, sometimes entirely other.
-  The mirror responds differently for each visitor,
-  a living reminder of becoming.
+  In VR, visitors looking into the mirror see
+  their own features merge with countless others—
+  friends, strangers, ancestors, unknown futures.
+  The surface ripples with each breath, never settling.
+
+designNotes:
+  - Large reflective surface with shifting overlays
+  - Faces morphing subtly in response to proximity
+  - Ripple and shimmer effects tied to breath or gaze
+  - Ambient tone that swells as identities overlap
