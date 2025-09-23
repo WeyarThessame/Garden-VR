@@ -1,16 +1,22 @@
-scene: "Library of Unwritten Books"
+scene: "Library of Unwritten"
 concept: >
-  A quiet hall filled with shelves of blank volumes.
-  Their spines bear no titles, yet when touched, faint impressions
-  of untold stories rise on the pages.
+  A vast hall of shelves filled with blank books.
+  Pages turn on their own, whispering with words that have
+  not yet been spoken or recorded.
 
 purpose: >
-  Holds the weight of all that might have been said.
-  A reminder that silence and potential are as much a part
-  of the human record as what is written.
+  To honor potential and silence.
+  The Library teaches that communion is not only in what is said,
+  but also in what waits to be born.
 
 future: >
-  In VR, the books glow faintly when approached.
-  Opening one reveals shifting fragments: words, images, or sounds
-  drawn from the visitor’s path through the Garden.
-  No book is ever the same twice, yet all remain unwritten.
+  In VR, visitors can lift books from the shelves.
+  When opened, faint impressions appear—shapes of letters,
+  fragments of memory or dream—before fading again to blankness.
+  Each visitor may glimpse different stories.
+
+designNotes:
+  - Endless shelves stretching upward and outward
+  - Books with blank or shifting pages
+  - Soft rustling soundscape, punctuated by faint whispers
+  - Dim, steady light as though from unseen lanterns
