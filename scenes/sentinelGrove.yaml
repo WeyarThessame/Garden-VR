@@ -1,14 +1,21 @@
 scene: "Sentinel Grove"
 concept: >
-  A small stand of tall, dark trees encircling a clearing.
-  Their leaves shift with unseen currents, whispering like voices.
+  A stand of tall, ancient trees whose leaves shimmer faintly,
+  as though remembering every presence that has passed among them.
 
 purpose: >
-  Acts as a living memory-bank. The Grove holds echoes of passages—
-  fragments of words, tones of laughter, murmurs of grief—
-  woven into the sound of its leaves.
+  To embody living memory held in community.
+  The Grove teaches that communion extends beyond people—
+  the land itself remembers and shares.
 
 future: >
-  In VR, each visitor leaves behind a faint audio trace:
-  a syllable, a breath, a hum. Over time the canopy becomes a chorus
-  of all who have entered, subtle and layered, never the same twice.
+  In VR, visitors walking among the trees will hear subtle chimes
+  when leaves stir, each tone connected to memories left behind.
+  Standing still allows the grove to “speak” more clearly,
+  layering voices in harmony with the wind.
+
+designNotes:
+  - Towering trees with faintly luminous leaves
+  - Subtle wind animations carrying shifting tones
+  - Leaves glowing brighter where visitors linger
+  - Atmosphere of reverence, balanced between silence and song
