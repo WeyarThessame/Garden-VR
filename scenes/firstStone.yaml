@@ -1,12 +1,21 @@
 scene: "First Stone"
 concept: >
-  The initial marker of the Garden—simple, grounded, and enduring.
-  It remembers where the path began.
+  A low, weathered stone set near the threshold.
+  It is the Garden’s seed—the place the path began.
 
 purpose: >
-  Serves as a root anchor, a reminder that every structure rises
-  from a first step, a first placing of stone.
+  To anchor origin and orientation. A touchstone to return to,
+  reminding that beginnings endure even as everything changes.
 
 future: >
-  In VR, this stone remains unchanging. A quiet landmark,
-  always visible no matter how far the Garden grows.
+  In VR, faint engravings appear as visitors approach—traces of first naming,
+  first steps, first tones. Touching the stone evokes a soft chime and
+  a brief glow along the engravings. Kneeling allows a visitor to leave
+  a tiny glyph that slowly fades into the patina.
+
+designNotes:
+  - Partially sunken stone with worn, shallow engravings
+  - Proximity reveal of inscriptions (emissive fade-in)
+  - Touch interaction: short tonal motif + radial light ripple
+  - Optional “leave a glyph” interaction that ages/fades over time
+  - Subtle, grounding hum—slower and deeper than the Sentinel’s
