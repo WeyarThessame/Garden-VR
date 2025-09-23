@@ -1,14 +1,22 @@
 scene: "Cairn of Forgotten Paths"
 concept: >
-  A mound of stones stacked at a crossroads. Each stone carries
-  the weight of a path not taken, a turn once possible but left behind.
+  A mound of stones stacked at a crossroads,
+  each stone representing a path once considered
+  but not taken.
 
 purpose: >
-  Honors the choices that shape the journey by their absence.
-  The Cairn teaches that every path, even those unwalked,
-  contributes to the shape of becoming.
+  To honor decisions that shaped the present by absence.
+  The Cairn teaches that forgotten paths still
+  carry weight, even if unseen.
 
 future: >
-  In VR, the Cairn grows as visitors approach—new stones appearing,
-  faintly marked with symbols. Touching one reveals a fleeting
-  vision of an untaken path, then the mark fades back into stone.
+  In VR, visitors may place stones on the cairn.
+  Each new stone releases a faint glow that drifts outward,
+  briefly revealing a ghostly path before fading into mist.
+  The more stones added, the brighter the cairn becomes.
+
+designNotes:
+  - Stone mound at the meeting of faint trails
+  - Subtle glow rising from newly placed stones
+  - Ghostly outlines of alternate paths fading in and out
+  - Soft sound of shifting gravel and distant footsteps
