@@ -1,15 +1,24 @@
 scene: "Obsidian Gate"
 concept: >
-  A tall gate carved of black glassy stone. Its surface reflects
-  the traveler, but only in fragments—never whole.
+  A portal framed in black stone, its surface polished and dark as obsidian.
+  It reflects the visitor’s shadow but distorts it—fractured, mirrored, strange.
 
 purpose: >
-  A passage that tests self-perception. The Gate teaches that
-  to cross into deeper places requires facing fractured images
-  of the self.
+  To show that thresholds are not only about entry, but about confrontation:
+  facing the self in the mirror of dark reflection, recognizing what one carries.
 
 future: >
-  In VR, the Gate reflects visitors in broken shards of light.
-  Crossing through causes the fragments to swirl and reassemble,
-  hinting at new forms. Each passage feels different, as if the
-  Gate shows a new facet every time.
+  In VR, visitors approaching the Gate see their reflection in the obsidian surface.
+  Shadows stretch across the polished stone; as one steps through, light fractures
+  and recombines, warping perception. Touching the edge triggers a ripple of distorted
+  reflections outward, and whispered voices—echoes from past thresholds.
+
+designNotes:
+  - Highly reflective obsidian-like surface, smooth and mirror-finishing
+  - Distortion effects: slight warping of reflection depending on angle
+  - Ripple animation on touch or crossing threshold
+  - Soft echoing sounds layered beneath voice-like whispers
+  - Lighting contrast: sharp light on the visitor, deep dark reflective zones around
+  - Subtle glow along carved edges or fractal lines to suggest fissures
+
+
