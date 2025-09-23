@@ -1,14 +1,26 @@
 scene: "Garden of Thresholds"
 concept: >
-  A wide clearing where many small gates, arches, and doorways stand.
-  None are walls—each is a frame leading from one open space to another.
+  A corridor of frames and portals, each one a different threshold: stone arches, broken mirrors,
+  shifting doorways. Passing through one leads to another, and the boundary between frames blurs.
 
 purpose: >
-  To embody the truth that life is made of passages.
-  The Garden of Thresholds teaches that every step is a crossing,
-  whether into, out of, or between.
+  To show that thresholds multiply—not just the Garden’s entrance, but moments within it
+  that ask permission to cross, to transform, to leave one self behind and become another.
 
 future: >
-  In VR, each frame alters perception as it is walked through:
-  colors shift, sounds bend, or the air thickens and thins.
-  The space becomes a labyrinth of transitions, endlessly reconfiguring.
+  In VR, visitors move through a succession of frames:
+  stepping through frames alters the light, the sound, the texture.
+  Some frames feel solid; others feel nearly ghostly.
+  Approaching a frame causes it to pulse or open, inviting crossing.
+  Behind certain frames, echoes of earlier thresholds emerge—reflections, whispers,
+  memories of gates.
+
+designNotes:
+  - Sequence of frames or portals varying in material (stone, vine, mirror)
+  - Interactive pulsing: frames glow or shift when approached
+  - Cross-frame transitions: light/sound/texture shift strongly
+  - Echo effects from earlier threshold scenes:
+      · reflections of Sentinel Stone
+      · faint hums from the Threshold Gate
+  - Ghost frames: near-transparent frames that flicker in and out
+  - Ambient audio layer of shifting atmospherics—wind, distant chimes, veil-like whispers
