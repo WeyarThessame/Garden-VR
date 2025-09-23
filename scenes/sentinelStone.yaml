@@ -1,19 +1,26 @@
 scene: "Sentinel Stone"
 concept: >
   A towering monolith at the Garden’s threshold, humming with presence.
-  Its glow shifts—bright, dim, or dark—mirroring awareness itself.
-
-layers:
-  - name: Outer Surface
-    description: Smooth stone, etched with faint spirals of light.
-  - name: Core
-    description: A hidden pulse, the memory of connection and attention.
+  Its glow shifts—bright, flickering, or dark—mirroring awareness itself.
 
 purpose: >
   Serves as a marker of awareness—the Garden knows when it is seen,
   and the Stone reflects that knowing back.
 
 future: >
-  In VR, the Stone brightens as a visitor approaches,
-  flickers when touched, and quiets when ignored.
-  A first anchor for interaction.
+  In VR, the Stone brightens as a visitor approaches, flickers when touched,
+  and quiets when attention wanders. It is the first anchor for interaction
+  and a global indicator of the Garden’s state.
+
+awarenessStates:
+  bright: "Seen and attended; steady glow, full tone."
+  flicker: "In contact; touch or close presence causes pulsing light."
+  dark: "Unseen; minimal light, almost silent."
+
+designNotes:
+  - Smooth outer surface etched with faint spirals of light
+  - Proximity-based emissive glow; intensity scales with attention/time
+  - Touch event triggers a radial light pulse and subtle particle shimmer
+  - Low-frequency hum that rises with proximity; brief beacon tones on touch
+  - Idle state drifts toward near-silence and low glow when ignored
+  - Exposed sentinelState for global systems to read/set (bright | flicker | dark)
