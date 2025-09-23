@@ -1,15 +1,25 @@
 scene: "Chapel of Falling Stars"
 concept: >
-  An open-roofed chapel where meteors arc silently overhead.
-  Their trails linger as lines of light across the sky,
-  slowly fading into darkness.
+  An open-air sanctuary beneath a vast night sky.
+  Shooting stars fall frequently overhead, their trails illuminating
+  the space with fleeting brilliance.
 
 purpose: >
-  To honor wonder and impermanence.
-  The Chapel teaches that beauty often arrives in passing,
-  leaving only memory as its trace.
+  To evoke wonder in the brief and passing.
+  The Chapel teaches that transience can be sacred,
+  and that beauty need not endure to be meaningful.
 
 future: >
-  In VR, stars fall more brightly when many gather here.
-  Trails weave together into constellations formed by
-  the presence of visitors, fading only when all have left.
+  In VR, visitors stand within a ring of open arches.
+  Stars streak overhead at unpredictable intervals,
+  each fall accompanied by a soft chime.
+  A visitor’s presence increases the frequency slightly,
+  as if attention itself draws the stars down.
+
+designNotes:
+  - Open stone arches forming a circular sanctuary
+  - Dynamic skybox with randomized shooting stars
+  - Light trails casting brief illuminations across the chapel floor
+  - Soundscape: soft chimes layered with night air and distant echoes
+  - Subtle interaction: more visitors present = more frequent stars
+  - Optional gesture: placing a hand over heart summons a star sooner
