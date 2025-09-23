@@ -1,15 +1,23 @@
 scene: "River of Glass"
 concept: >
-  A narrow river that flows clear as crystal, its surface
-  reflecting everything with sharp precision. Shards sometimes
-  break free and drift like petals downstream.
+  A flowing river whose surface gleams like crystal.
+  It reflects everything above, yet fractures into shards
+  when disturbed.
 
 purpose: >
-  To remind that clarity is both beautiful and fragile.
-  The River teaches that reflection can cut as well as illuminate.
+  To remind that endings are delicate and revealing.
+  The River teaches that reflection can both clarify
+  and break apart.
 
 future: >
-  In VR, the river responds to approach: footsteps near the bank
-  cause ripples of light, while thrown objects fracture
-  the reflection into shifting patterns. Crossing it requires care,
-  as the glassy surface trembles but does not shatter.
+  In VR, visitors approaching the river see perfect
+  reflections of sky and self. Touching the surface
+  causes it to fracture briefly into glowing shards,
+  which reform as the water flows on.
+  Each crossing reshapes the reflection.
+
+designNotes:
+  - Wide river with glasslike, reflective surface
+  - Dynamic shattering effect when touched
+  - Shards dissolve back into flowing water
+  - Ambient sound of moving water with crystalline tones
