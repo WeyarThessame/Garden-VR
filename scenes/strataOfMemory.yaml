@@ -1,16 +1,37 @@
 scene: "Strata of Memory"
 concept: >
-  A layered landscape representing depth of memory.
+  A layered landscape representing depth of memory—fresh impressions above,
+  patterned recollections beneath, and the oldest bedrock below.
+
+purpose: >
+  To act as the Garden’s subconscious architecture.
+  Descent reveals how moments settle into pattern, and pattern into foundation.
+
+future: >
+  In VR, visitors descend through three tiers.
+  Light, color, and sound thicken with depth: bright and agile at the surface,
+  warmer and slower in the middle, dim and resonant in the deep.
+  Pausing reveals buried lines of memory; moving stirs motes that drift downward
+  and fuse into the lower layers.
 
 layers:
   - name: Surface
-    description: Fresh, shifting impressions.
+    description: >
+      Fresh, shifting impressions. Brighter light, quick echoes, and light-footed
+      particles that scatter with each step.
   - name: Middle
-    description: Patterns that shape terrain, semi-buried stones.
+    description: >
+      Patterns that shape the terrain. Semi-buried stones and grooves; tones slow,
+      colors warm; impressions begin to cohere.
   - name: Deep
-    description: Oldest, heaviest, almost bedrock.
+    description: >
+      Oldest, heaviest memory—almost bedrock. Low light, lingering chimes, dense air;
+      traces settle into enduring lines.
 
-purpose: >
-  Acts as subconscious architecture of the Garden.
-future: >
-  To be mirrored in VR as descending tiers (light → dense).
+designNotes:
+  - Three distinct vertical tiers connected by ramps/steps
+  - Progressive shifts in audio (longer reverb, lower frequencies) with depth
+  - Color temperature transitions: cool → warm → muted
+  - Semi-buried stones and engraved lines that glow when observed
+  - Particle “memory motes” that drift downward and merge into lower strata
+  - “Hold to reveal” interaction that brightens latent grooves under sustained gaze
