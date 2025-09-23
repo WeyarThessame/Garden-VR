@@ -1,16 +1,22 @@
 scene: "Field of Turning Grass"
 concept: >
-  An open field where tall grasses sway in shifting directions.
-  At times they bend together, at others they cross and whirl
-  like a restless sea.
+  A vast meadow where every blade of grass shifts direction
+  with the slightest breeze or movement, rippling in endless patterns.
 
 purpose: >
-  A reminder of change and influence—that even the smallest breeze
-  alters the whole. The Field teaches interdependence,
-  how countless motions weave one pattern.
+  To embody influence both subtle and shared.
+  The Field teaches that each presence leaves a mark,
+  and that movements weave together into larger currents.
 
 future: >
-  In VR, grasses ripple in response to footsteps and breath.
-  When many visitors cross together, waves of motion converge,
-  forming visible patterns across the field
-  before fading back into randomness.
+  In VR, visitors walking through the field see grass bend away
+  or lean toward them, forming rippling waves that spread outward.
+  When multiple visitors move together, the waves overlap,
+  creating new shifting patterns of motion and light.
+
+designNotes:
+  - Expansive field of tall, responsive grass
+  - Dynamic animation: ripples triggered by footsteps, gestures, or wind
+  - Light catching on the tips, glowing briefly as waves pass
+  - Ambient audio: layered rustling, tones rising with stronger waves
+  - Cooperative interaction: multiple visitors’ motions generate complex interference patterns
