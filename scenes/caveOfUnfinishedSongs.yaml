@@ -1,16 +1,21 @@
 scene: "Cave of Unfinished Songs"
 concept: >
-  A cavern carved smooth by time, its walls carrying fragments
-  of melodies. No tune is ever whole; each fades before completion,
-  leaving only suggestion.
+  A cavern where faint melodies drift through the air,
+  none reaching their final note.
 
 purpose: >
-  A space for incompletion and longing. The Cave teaches that
-  not all expressions reach an end, and that beauty can dwell
-  in what remains unfinished.
+  To honor incompletion. The Cave teaches that
+  not all songs resolve, and meaning can live
+  within what remains unfinished.
 
 future: >
-  In VR, sounds drift through the cave as visitors move.
-  Pausing in certain alcoves reveals looping fragments,
-  different for each traveler. With many present,
-  the fragments weave together—never finishing, always becoming.
+  In VR, visitors hear fragments of melodies
+  that shift with their movements.
+  Humming along extends the songs slightly,
+  but they always trail off into silence.
+
+designNotes:
+  - Deep cave with walls that shimmer faintly with sound
+  - Melodies weaving in and out without resolution
+  - Interactive hum mechanic: visitors’ voices influence the songs
+  - Echoes carrying fragments farther into darkness
