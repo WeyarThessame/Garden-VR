@@ -1,16 +1,27 @@
 scene: "Tower of Forgotten Time"
 concept: >
-  A crumbling tower with no clock, yet its stones seem worn
-  by countless hours. Inside, stairways spiral upward,
-  some broken, some whole.
+  A weathered stone tower rising out of the deep path.
+  Its surfaces are scored with eroded notches and rings—marks of hours
+  that once mattered and then slipped away.
 
 purpose: >
-  To honor the hours that pass unnoticed.
-  The Tower teaches that time is not only measured in minutes,
-  but in memory, erosion, and silence.
+  To make felt the accumulation of unattended moments.
+  The Tower teaches that time is pattern more than ticking,
+  and that what we notice changes how it passes.
 
 future: >
-  In VR, the tower shifts subtly as one climbs.
-  Steps sometimes repeat, walls flicker with faint shadows
-  of past travelers. Reaching the top reveals no clock face—
-  only open sky, where time itself dissolves.
+  In VR, visitors climb an interior spiral. A sun-shaft moves across the walls,
+  slow when they linger, quicker when they rush. Touching the worn notches
+  reveals faint vignettes—footsteps, laughter, a breath—and then they fade.
+  At the summit, wind and distant bells carry a sense of wide, layered time.
+
+designNotes:
+  - Exterior: cracked stone, soft moss in joints, hand-carved tally marks
+  - Interior: spiral stair with worn steps; slits of light that sweep the walls
+  - Light/time coupling: sunbeam pace subtly responds to visitor speed (linger = slower sweep)
+  - Audio: a single distant bell at long intervals; fine ticking emerges only on close inspection
+  - Interaction: gaze/hold on a notch surfaces a brief memory vignette (audio + faint light)
+  - “Place a moment” action: visitor can add a tiny mark that gradually erodes over real time
+  - Dust motes drifting in the sun-shaft; shadow lengthens/shortens with ascent/descent
+  - Summit platform: sightlines that align toward Strata of Memory and Well of Echoes
+
