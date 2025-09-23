@@ -1,14 +1,21 @@
 scene: "Chamber of Threads"
 concept: >
-  A round chamber where countless fine threads hang from the ceiling,
-  glowing faintly. They sway and cross, forming shifting webs of light.
+  A circular chamber where countless strands of light stretch
+  from wall to wall, weaving a living tapestry that shifts
+  with each new presence.
 
 purpose: >
-  To embody interconnection—each thread a path, each crossing a meeting.
-  The Chamber teaches that lives touch and reweave in patterns
-  larger than any one can see.
+  To embody interconnection. The Chamber teaches that every
+  action and presence tugs the weave, altering the whole.
 
 future: >
-  In VR, threads respond to movement. When touched, they vibrate
-  with color and tone, sending ripples through the weave.
-  Many visitors together create complex harmonies of light and sound.
+  In VR, visitors can touch the threads, causing ripples
+  of light and sound that spread through the chamber.
+  When multiple visitors interact at once, patterns emerge,
+  revealing harmonies of movement and intention.
+
+designNotes:
+  - Chamber walls lined with anchor points for luminous threads
+  - Threads shifting subtly even without contact
+  - Touch triggers spreading ripples of light and tone
+  - Dynamic weaving effect when several ripples overlap
