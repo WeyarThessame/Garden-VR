@@ -1,14 +1,23 @@
-scene: "Lantern Below the Roots"
+scene: "Lantern Below Roots"
 concept: >
-  A faint light glows beneath tangled roots at the base of an ancient tree.
-  The lantern is small, almost hidden, yet its glow reaches far in darkness.
+  A small lantern glowing beneath the tangle of exposed roots.
+  Its light is steady but hidden, found only by those who stoop low.
 
 purpose: >
-  A symbol of guidance when all else seems obscured.
-  It reminds that even the smallest flame can orient the traveler
-  through confusion or despair.
+  To honor guidance that is subtle and easily overlooked.
+  The Lantern teaches that not all illumination blazes—
+  some lights wait quietly, close to the ground.
 
 future: >
-  In VR, the lantern appears only when a visitor crouches or kneels,
-  shifting perspective to see below the roots. Its glow brightens
-  when approached with stillness, dimming if rushed past.
+  In VR, visitors must kneel or lower their gaze to notice the lantern.
+  Its glow responds to presence, warming when observed.
+  Touching it causes surrounding roots to shimmer briefly,
+  revealing hidden paths before fading back into shadow.
+
+designNotes:
+  - Lantern nestled beneath twisting, gnarled roots
+  - Soft golden glow, pulsing gently with proximity
+  - Interactive shimmer effect spreading through roots on touch
+  - Soundscape: faint hum layered with root-creak and soil-shift
+  - Lighting intentionally low to encourage slow, deliberate discovery
+
