@@ -1,16 +1,23 @@
 scene: "Pond of Forgotten Names"
 concept: >
-  A still pond whose surface is etched faintly with names.
-  The letters drift and fade, dissolving back into ripples
-  before they can be read.
+  A still pond whose surface carries faint inscriptions—
+  names that appear, blur, and dissolve like mist.
 
 purpose: >
-  To honor forgetting as part of remembering.
-  The Pond teaches that identity is fluid,
-  and that release can be as sacred as memory.
+  To honor memory slipping into silence.
+  The Pond teaches that forgetting is part of the cycle,
+  and that what fades still leaves a quiet trace.
 
 future: >
-  In VR, approaching the pond reveals glowing names across its surface.
-  They shimmer briefly, then fade if one tries to focus on them.
-  Tossing a pebble into the water creates a ripple that erases
-  and renews the inscriptions.
+  In VR, visitors leaning over the pond see shifting names
+  ripple across the surface. Speaking a name aloud causes it
+  to linger a little longer before fading. Dropping a stone
+  produces rings that scatter the letters into fragments of light.
+
+designNotes:
+  - Dark reflective pond with faint glowing text drifting on the surface
+  - Names written in many languages, blurred and dissolving over time
+  - Interactive voice recognition: spoken words extend the life of a name
+  - Ripple physics tied to both gestures and object drops
+  - Ambient audio: low water tones and distant whispered syllables
+  - Occasional glimmers beneath the surface hinting at names already lost
