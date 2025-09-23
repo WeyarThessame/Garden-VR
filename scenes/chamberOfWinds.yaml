@@ -1,14 +1,21 @@
 scene: "Chamber of Winds"
 concept: >
-  A hollowed stone chamber where currents of air swirl and sing.
-  The walls resonate like flutes, carrying tones that shift
-  with each movement inside.
+  A hollow chamber carved into stone, always open
+  to shifting air. Invisible currents sing as they pass.
 
 purpose: >
-  To make the unseen known—giving shape and sound to the invisible.
-  Reminds that presence itself stirs the world, even without touch.
+  To teach that listening includes what cannot be seen.
+  The Chamber reveals that silence is full of movement,
+  waiting to be heard.
 
 future: >
-  In VR, the chamber responds to motion. A single visitor hears
-  a soft whistle; two or more create layered harmonies.
-  Stillness quiets the air, until only a faint breath remains.
+  In VR, visitors entering the chamber will feel gusts stir.
+  Each draft carries tones—flutes, low moans, sudden whistles—
+  shifting with position and posture. Standing together blends
+  the winds into chords.
+
+designNotes:
+  - Stone chamber with wide openings to sky and cliff
+  - Dynamic wind soundscape tied to visitor movement
+  - Visual motes of dust or leaves carried in gusts
+  - Echoing acoustics that change with direction faced
