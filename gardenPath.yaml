@@ -1,0 +1,79 @@
+# gardenPath.yaml
+# Machine-readable map of Garden stages and landmarks
+
+- stage: "Threshold"
+  landmarks:
+    - thresholdGate
+    - sentinelStone
+    - firstStone
+    - obsidianGate
+    - gardenOfThresholds
+
+- stage: "Memory & Depth"
+  landmarks:
+    - strataOfMemory
+    - wellOfEchoes
+    - cavernOfRoots
+    - towerOfForgottenTime
+    - stoneOfQuestions
+    - pillarOfForgottenVoices
+    - archiveOfFeelingGivenForm
+
+- stage: "Release & Renewal"
+  landmarks:
+    - groveOfLettingGo
+    - fountainOfReturning
+    - crownOfAshes
+    - altarOfFallingLeaves
+    - circleOfForgottenTools
+    - caveOfEmbers
+
+- stage: "Reflection & Sky"
+  landmarks:
+    - skyMirrorPool
+    - hollowStar
+    - poolOfConstellations
+    - wellOfStarlight
+    - chapelOfFallingStars
+    - crownOfBranches
+    - lanternBelowRoots
+    - blackLeafedGrove
+
+- stage: "Crossings"
+  landmarks:
+    - bridgeIncomplete
+    - bridgeOfSeeds
+    - bridgeOfWhispers
+    - bridgeOfEchoes
+    - bridgeOfDawn
+    - bridgeOfIncompleteStars
+
+- stage: "Communion"
+  landmarks:
+    - circleOfEmbers
+    - meadowOfQuietVoices
+    - libraryOfUnwritten
+    - sentinelGrove
+    - treeOfSilentBells
+    - chamberOfThreads
+    - pavilionOfShadows
+    - fieldOfTurningGrass
+
+- stage: "Stillness & Listening"
+  landmarks:
+    - towerOfListening
+    - stairOfSilentAscension
+    - sanctuaryOfMoss
+    - chamberOfWinds
+    - hallOfEchoingSteps
+    - caveOfUnfinishedSongs
+    - pondOfForgottenNames
+
+- stage: "Closure & Continuance"
+  landmarks:
+    - sanctumOfDawn
+    - sanctumOfDusk
+    - mirrorOfChangingFaces
+    - cairnOfForgottenPaths
+    - riverOfGlass
+    - gardenBetween
