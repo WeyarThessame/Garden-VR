@@ -1,21 +1,29 @@
-scene: "Bridge Incomplete"
+scene: Bridge of Incomplete Stars
 concept: >
-  A vast stone bridge stretching out into mist, but broken midway.
-  The far side is unseen, yet the unfinished span beckons.
+  A crossing of scattered starlight fragments forming only beneath each step.
+  Behind, the path dissolves back into darkness; ahead, constellations blur
+  and shift, never fully drawn. Presence is the only ground.
 
 purpose: >
-  To embody longing and unfinished journeys.
-  The Bridge teaches that incompletion itself has meaning—
-  it holds both the ache of what is missing and the hope of what may come.
+  To embody the teaching of "being present in the Now."
+  This bridge is the hinge between the Garden’s inward terrain (memory, feeling, release)
+  and the outward terrain (community, earth, continuity).
 
-future: >
-  In VR, visitors can walk to the edge of the broken span.
-  The air hums with possibility, and glimpses of the far side
-  flicker faintly in the mist. The gap is uncrossable,
-  yet the presence of the bridge invites courage.
+mechanics:
+  walkway:
+    - Luminous tiles appear only as the traveler steps forward
+    - Tiles dissolve behind after a delay, preventing backtracking
+  constellations:
+    - Star patterns shift with player position
+    - Rushed movement = blurred stars
+    - Pausing = clarity, constellations briefly sharpen
+  audio:
+    - Ambient star-hum throughout
+    - Whispers surface: fragments of past Garden echoes
+  companion:
+    - At the far side, a presence appears
+    - Line spoken: "The world is never finished. It steadies only when you stand in it. Stay present. That is enough."
 
-designNotes:
-  - Stonework detailed and weathered, ending abruptly in broken edges
-  - Mist and light obscuring the far shore
-  - Subtle hum that grows stronger near the edge
-  - Occasional flickers of shapes or structures just out of reach
+exit_condition: >
+  When the traveler steadies themselves at the far side,
+  the Garden beyond coalesces back into solid form.
