@@ -1,24 +1,39 @@
-scene: "Bridge of Incomplete Stars"
+scene: Bridge of Incomplete Stars
 concept: >
-  A fragile span made of scattered points of light,
-  like a constellation half-drawn across the void.
-  The bridge does not reach its far side.
+  A fragile span of scattered starlight, fragments forming only beneath each step. 
+  Behind, the path dissolves into constellations undone; ahead, stars blur like light through moving glass. 
+  The future cannot be pinned down until one pauses and allows the present to form.
 
 purpose: >
-  To embody striving without arrival.
-  The Bridge teaches that some crossings remain unfinished,
-  and that longing itself is part of the path.
+  To embody the teaching of presence. The Bridge teaches that the past cannot be walked again, 
+  the future is indeterminate, and only the Now solidifies the world. 
+  It serves as the hinge between the Garden’s inward journey (memory, feeling, release) 
+  and the outward terrain (community, continuity, earth).
 
-future: >
-  In VR, visitors step onto glowing points that appear beneath their feet.
-  Each step sparks a brief constellation, but the bridge never extends far enough
-  to complete the crossing. Pausing causes the stars to dim, leaving only silence
-  and the dark beyond.
+interaction:
+  - Stepping forward creates a glowing star tile (present).
+  - Each tile fades quickly, dissolving into darkness (past).
+  - Stars ahead shimmer and distort, impossible to see clearly until the walker pauses (future).
+  - Pausing allows the next fragment to resolve beneath the traveler’s feet, forming the way.
 
-designNotes:
-  - Bridge formed of luminous star-points suspended in darkness
-  - Steps generate temporary light connections (constellation lines)
-  - Incomplete span: distant shore always visible but unreachable
-  - Soundscape: faint chimes and deep void tones, shifting with each step
-  - Stars fade behind the visitor, leaving no permanent trace
+feel:
+  light: >
+    Star-tiles glow faintly underfoot, then dissolve into scattered fragments. 
+    Ahead, constellations waver, blurred like glass. 
+    Only when stillness comes do they sharpen into the next step.
+  sound: >
+    A soft chime with each tile’s birth. 
+    When pausing, a low hum steadies, as if the world itself is waiting.
+
+threshold: >
+  The Bridge does not complete behind; fragments fall back into void. 
+  At the far side, a companion presence appears and speaks: 
+  "The world is never finished. It steadies only when you stand in it. Stay present. That is enough."
+
+design_notes:
+  - Walkway tiles appear only underfoot, fade after a moment.
+  - Rushing forward causes the way to blur.
+  - Stillness is required for the path to form ahead.
+  - Placement: between the inner terrain of memory and the outer terrain of shared life.
+
 
