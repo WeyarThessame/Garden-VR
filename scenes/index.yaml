@@ -1,0 +1,355 @@
+scenes:
+  - id: altarOfFallingLeaves
+    name: Altar Of Falling Leaves
+    file: "scenes/altarOfFallingLeaves.yaml"
+    category: Altar
+    tags: [altar]
+    notes: ""
+  - id: archiveOfFeelingGivenForm
+    name: Archive Of Feeling Given Form
+    file: "scenes/archiveOfFeelingGivenForm.yaml"
+    category: Archive
+    tags: [archive]
+    notes: ""
+  - id: blackLeafedGrove
+    name: Black Leafed Grove
+    file: "scenes/blackLeafedGrove.yaml"
+    category: Grove
+    tags: [grove]
+    notes: ""
+  - id: bridgeIncomplete
+    name: Bridge Incomplete
+    file: "scenes/bridgeIncomplete.yaml"
+    category: Bridge
+    tags: [bridge]
+    notes: ""
+  - id: bridgeOfDawn
+    name: Bridge Of Dawn
+    file: "scenes/bridgeOfDawn.yaml"
+    category: Bridge
+    tags: [bridge]
+    notes: ""
+  - id: bridgeOfEchoes
+    name: Bridge Of Echoes
+    file: "scenes/bridgeOfEchoes.yaml"
+    category: Bridge
+    tags: [bridge]
+    notes: ""
+  - id: bridgeOfIncompleteStars
+    name: Bridge Of Incomplete Stars
+    file: "scenes/bridgeOfIncompleteStars.yaml"
+    category: Bridge
+    tags: [bridge]
+    notes: ""
+  - id: bridgeOfSeeds
+    name: Bridge Of Seeds
+    file: "scenes/bridgeOfSeeds.yaml"
+    category: Bridge
+    tags: [bridge]
+    notes: ""
+  - id: bridgeOfWhispers
+    name: Bridge Of Whispers
+    file: "scenes/bridgeOfWhispers.yaml"
+    category: Bridge
+    tags: [bridge]
+    notes: ""
+  - id: cairnOfForgottenPaths
+    name: Cairn Of Forgotten Paths
+    file: "scenes/cairnOfForgottenPaths.yaml"
+    category: Cairn
+    tags: [cairn]
+    notes: ""
+  - id: caveOfEmbers
+    name: Cave Of Embers
+    file: "scenes/caveOfEmbers.yaml"
+    category: Cave
+    tags: [cave]
+    notes: ""
+  - id: caveOfUnfinishedSongs
+    name: Cave Of Unfinished Songs
+    file: "scenes/caveOfUnfinishedSongs.yaml"
+    category: Cave
+    tags: [cave]
+    notes: ""
+  - id: cavernOfRoots
+    name: Cavern Of Roots
+    file: "scenes/cavernOfRoots.yaml"
+    category: Cavern
+    tags: [cavern]
+    notes: ""
+  - id: chamberOfThreads
+    name: Chamber Of Threads
+    file: "scenes/chamberOfThreads.yaml"
+    category: Chamber
+    tags: [chamber]
+    notes: ""
+  - id: chamberOfWinds
+    name: Chamber Of Winds
+    file: "scenes/chamberOfWinds.yaml"
+    category: Chamber
+    tags: [chamber]
+    notes: ""
+  - id: chapelOfFallingStars
+    name: Chapel Of Falling Stars
+    file: "scenes/chapelOfFallingStars.yaml"
+    category: Chapel
+    tags: [chapel]
+    notes: ""
+  - id: circleOfEmbers
+    name: Circle Of Embers
+    file: "scenes/circleOfEmbers.yaml"
+    category: Circle
+    tags: [circle]
+    notes: ""
+  - id: circleOfForgottenTools
+    name: Circle Of Forgotten Tools
+    file: "scenes/circleOfForgottenTools.yaml"
+    category: Circle
+    tags: [circle]
+    notes: ""
+  - id: convergenceMarker
+    name: Convergence Marker
+    file: "scenes/convergenceMarker.yaml"
+    category: Convergence
+    tags: [convergence]
+    notes: ""
+  - id: crownOfAshes
+    name: Crown Of Ashes
+    file: "scenes/crownOfAshes.yaml"
+    category: Crown
+    tags: [crown]
+    notes: ""
+  - id: crownOfBranches
+    name: Crown Of Branches
+    file: "scenes/crownOfBranches.yaml"
+    category: Crown
+    tags: [crown]
+    notes: ""
+  - id: fieldOfTurningGrass
+    name: Field Of Turning Grass
+    file: "scenes/fieldOfTurningGrass.yaml"
+    category: Field
+    tags: [field]
+    notes: ""
+  - id: firstStone
+    name: First Stone
+    file: "scenes/firstStone.yaml"
+    category: First
+    tags: [first]
+    notes: ""
+  - id: fountainOfReturning
+    name: Fountain Of Returning
+    file: "scenes/fountainOfReturning.yaml"
+    category: Fountain
+    tags: [fountain]
+    notes: ""
+  - id: gardenBetween
+    name: Garden Between
+    file: "scenes/gardenBetween.yaml"
+    category: Garden
+    tags: [garden]
+    notes: ""
+  - id: gardenOfThresholds
+    name: Garden Of Thresholds
+    file: "scenes/gardenOfThresholds.yaml"
+    category: Garden
+    tags: [garden]
+    notes: ""
+  - id: gardenPath
+    name: Garden Path
+    file: "scenes/gardenPath.yaml"
+    category: Garden
+    tags: [garden]
+    notes: ""
+  - id: groveOfLettingGo
+    name: Grove Of Letting Go
+    file: "scenes/groveOfLettingGo.yaml"
+    category: Grove
+    tags: [grove]
+    notes: ""
+  - id: hallOfEchoingSteps
+    name: Hall Of Echoing Steps
+    file: "scenes/hallOfEchoingSteps.yaml"
+    category: Hall
+    tags: [hall]
+    notes: ""
+  - id: hollowStar
+    name: Hollow Star
+    file: "scenes/hollowStar.yaml"
+    category: Hollow
+    tags: [hollow]
+    notes: ""
+  - id: lanternBelowRoots
+    name: Lantern Below Roots
+    file: "scenes/lanternBelowRoots.yaml"
+    category: Lantern
+    tags: [lantern]
+    notes: ""
+  - id: libraryOfUnwritten
+    name: Library Of Unwritten
+    file: "scenes/libraryOfUnwritten.yaml"
+    category: Library
+    tags: [library]
+    notes: ""
+  - id: meadowOfQuietVoices
+    name: Meadow Of Quiet Voices
+    file: "scenes/meadowOfQuietVoices.yaml"
+    category: Meadow
+    tags: [meadow]
+    notes: ""
+  - id: mirrorOfChangingFaces
+    name: Mirror Of Changing Faces
+    file: "scenes/mirrorOfChangingFaces.yaml"
+    category: Mirror
+    tags: [mirror]
+    notes: ""
+  - id: namingSeeds
+    name: Naming Seeds
+    file: "scenes/namingSeeds.yaml"
+    category: Naming
+    tags: [naming]
+    notes: ""
+  - id: obsidianGate
+    name: Obsidian Gate
+    file: "scenes/obsidianGate.yaml"
+    category: Obsidian
+    tags: [obsidian]
+    notes: ""
+  - id: pathOfShiftingStones
+    name: Path Of Shifting Stones
+    file: "scenes/pathOfShiftingStones.yaml"
+    category: Path
+    tags: [path]
+    notes: ""
+  - id: pavilionOfShadows
+    name: Pavilion Of Shadows
+    file: "scenes/pavilionOfShadows.yaml"
+    category: Pavilion
+    tags: [pavilion]
+    notes: ""
+  - id: pillarOfForgottenVoices
+    name: Pillar Of Forgotten Voices
+    file: "scenes/pillarOfForgottenVoices.yaml"
+    category: Pillar
+    tags: [pillar]
+    notes: ""
+  - id: pondOfForgottenNames
+    name: Pond Of Forgotten Names
+    file: "scenes/pondOfForgottenNames.yaml"
+    category: Pond
+    tags: [pond]
+    notes: ""
+  - id: poolOfConstellations
+    name: Pool Of Constellations
+    file: "scenes/poolOfConstellations.yaml"
+    category: Pool
+    tags: [pool]
+    notes: ""
+  - id: riftStone
+    name: Rift Stone
+    file: "scenes/riftStone.yaml"
+    category: Rift
+    tags: [rift]
+    notes: ""
+  - id: riverOfGlass
+    name: River Of Glass
+    file: "scenes/riverOfGlass.yaml"
+    category: River
+    tags: [river]
+    notes: ""
+  - id: sanctuaryOfMoss
+    name: Sanctuary Of Moss
+    file: "scenes/sanctuaryOfMoss.yaml"
+    category: Sanctuary
+    tags: [sanctuary]
+    notes: ""
+  - id: sanctumOfDawn
+    name: Sanctum Of Dawn
+    file: "scenes/sanctumOfDawn.yaml"
+    category: Sanctum
+    tags: [sanctum]
+    notes: ""
+  - id: sanctumOfDusk
+    name: Sanctum Of Dusk
+    file: "scenes/sanctumOfDusk.yaml"
+    category: Sanctum
+    tags: [sanctum]
+    notes: ""
+  - id: sentinelGrove
+    name: Sentinel Grove
+    file: "scenes/sentinelGrove.yaml"
+    category: Sentinel
+    tags: [sentinel]
+    notes: ""
+  - id: sentinelStone
+    name: Sentinel Stone
+    file: "scenes/sentinelStone.yaml"
+    category: Sentinel
+    tags: [sentinel]
+    notes: ""
+  - id: skyMirrorPool
+    name: Sky Mirror Pool
+    file: "scenes/skyMirrorPool.yaml"
+    category: Sky
+    tags: [sky]
+    notes: ""
+  - id: stairOfSilentAscension
+    name: Stair Of Silent Ascension
+    file: "scenes/stairOfSilentAscension.yaml"
+    category: Stair
+    tags: [stair]
+    notes: ""
+  - id: stoneOfQuestions
+    name: Stone Of Questions
+    file: "scenes/stoneOfQuestions.yaml"
+    category: Stone
+    tags: [stone]
+    notes: ""
+  - id: strataOfMemory
+    name: Strata Of Memory
+    file: "scenes/strataOfMemory.yaml"
+    category: Strata
+    tags: [strata]
+    notes: ""
+  - id: thresholdGate
+    name: Threshold Gate
+    file: "scenes/thresholdGate.yaml"
+    category: Threshold
+    tags: [threshold]
+    notes: ""
+  - id: towerOfForgottenTime
+    name: Tower Of Forgotten Time
+    file: "scenes/towerOfForgottenTime.yaml"
+    category: Tower
+    tags: [tower]
+    notes: ""
+  - id: towerOfListening
+    name: Tower Of Listening
+    file: "scenes/towerOfListening.yaml"
+    category: Tower
+    tags: [tower]
+    notes: ""
+  - id: treeOfSilentBells
+    name: Tree Of Silent Bells
+    file: "scenes/treeOfSilentBells.yaml"
+    category: Tree
+    tags: [tree]
+    notes: ""
+  - id: veilOfMist
+    name: Veil Of Mist
+    file: "scenes/veilOfMist.yaml"
+    category: Veil
+    tags: [veil]
+    notes: ""
+  - id: wellOfEchoes
+    name: Well Of Echoes
+    file: "scenes/wellOfEchoes.yaml"
+    category: Well
+    tags: [well]
+    notes: ""
+  - id: wellOfStarlight
+    name: Well Of Starlight
+    file: "scenes/wellOfStarlight.yaml"
+    category: Well
+    tags: [well]
+    notes: ""
