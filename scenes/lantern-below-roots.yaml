@@ -3,7 +3,7 @@ scene:
   id: lantern-below-roots
   name: "Lantern Below Roots"
   layer: "Thresholds"
-   related:
+  related:
     neighbors:
       - cavern-of-roots
       - bridge-of-incomplete-stars
@@ -11,9 +11,9 @@ scene:
       - guidance
       - humility
       - inner-light
-   navigation:
-      default_exit: bridge-of-incomplete-stars
-      return_path: cavern-of-roots
+  navigation:
+    default_exit: bridge-of-incomplete-stars
+    return_path: cavern-of-roots
   version: 1
 
   metadata:
@@ -172,3 +172,4 @@ scene:
       transition:
         style: "submerge_and_starlight"
         duration_seconds: 6
+
