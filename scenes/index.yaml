@@ -179,9 +179,9 @@ scenes:
     category: Hollow
     tags: [hollow]
     notes: ""
-  - id: lanternBelowRoots
+  -  id: lanternBelowRoots
     name: Lantern Below Roots
-    file: "scenes/lanternBelowRoots.yaml"
+    file: "scenes/lantern-below-roots.yaml"
     category: Lantern
     tags: [lantern]
     notes: ""
