@@ -3,6 +3,15 @@ scene:
   id: lantern-below-roots
   name: "Lantern Below Roots"
   layer: "Thresholds"
+    related:
+    neighbors:
+      - cavern-of-roots
+      - bridge-of-incomplete-stars
+    thematic:
+      - guidance
+      - humility
+      - inner-light
+
   version: 1
 
   metadata:
