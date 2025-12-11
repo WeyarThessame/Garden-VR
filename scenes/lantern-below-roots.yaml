@@ -1,4 +1,5 @@
 scene:
+  design_ref: "../scenes/lanternBelowRoots.design.yaml"
   id: lantern-below-roots
   name: "Lantern Below Roots"
   layer: "Thresholds"
