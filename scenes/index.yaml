@@ -185,6 +185,7 @@ scenes:
     category: Lantern
     tags: [lantern]
     notes: ""
+    related_to: ["cavernOfRoots", "bridgeOfIncompleteStars"]
   - id: libraryOfUnwritten
     name: Library Of Unwritten
     file: "scenes/libraryOfUnwritten.yaml"
