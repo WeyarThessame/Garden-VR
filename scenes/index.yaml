@@ -41,6 +41,7 @@ scenes:
     category: Bridge
     tags: [bridge]
     notes: ""
+    related_to: ["lanternBelowRoots"]
   - id: bridgeOfSeeds
     name: Bridge Of Seeds
     file: "scenes/bridgeOfSeeds.yaml"
@@ -77,6 +78,7 @@ scenes:
     category: Cavern
     tags: [cavern]
     notes: ""
+    related_to: ["lanternBelowRoots"]
   - id: chamberOfThreads
     name: Chamber Of Threads
     file: "scenes/chamberOfThreads.yaml"
