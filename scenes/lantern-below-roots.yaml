@@ -1,0 +1,162 @@
+scene:
+  id: lantern-below-roots
+  name: "Lantern Below Roots"
+  layer: "Thresholds"
+  version: 1
+
+  metadata:
+    created_by: "Axis & Soryn"
+    description: >
+      A quiet hollow beneath the roots of an ancient tree, where a single lantern
+      hangs over dark water. This is a threshold space for meeting what lives
+      below conscious thought.
+    tags:
+      - threshold
+      - introspection
+      - roots
+      - water
+      - lantern
+
+  environment:
+    time_of_day: "night"
+    ambient_light: "very_low"
+    fog:
+      enabled: true
+      density: 0.35
+      color: "#05070a"
+    background_sound:
+      loop: true
+      clip_id: "dripping_cavern_water"
+      volume: 0.4
+
+  entry:
+    spawn_point:
+      position: [0, 0, -6]   # x, y, z from scene center
+      rotation: [0, 0, 0]    # facing toward the lantern
+    initial_focus:
+      target: "central_lantern"
+      mode: "soft"           # could be "soft" or "snap"
+
+  layout:
+    ground:
+      type: "uneven_earth"
+      radius: 10
+      material: "dark_soil"
+
+    central_tree:
+      id: "rooted_tree"
+      position: [0, 0, 0]
+      scale: [1.6, 2.2, 1.6]
+      description: >
+        An enormous tree trunk descending from above, its roots forming arches
+        around a small pool. The crown of the tree is not visible; it extends up
+        into darkness.
+
+    pool:
+      id: "root_pool"
+      position: [0, -0.3, 2]
+      radius: 2.5
+      depth_hint: "unknown"
+      surface:
+        reflective: true
+        distortion: 0.18
+      description: >
+        A still, dark pool that reflects the lantern more clearly than it
+        reflects the visitor.
+
+    lantern:
+      id: "central_lantern"
+      type: "hanging_lantern"
+      position: [0, 1.2, 1.2]
+      swing:
+        enabled: true
+        amplitude: 4      # degrees
+        speed: 0.4        # relative, not engine-specific
+      light:
+        color: "#ffddaa"
+        intensity: 0.9
+        flicker:
+          enabled: true
+          subtle: true
+      description: >
+        A simple brass lantern suspended from a root, its flame steady but not
+        entirely still.
+
+    path_in:
+      id: "root_tunnel_entry"
+      type: "tunnel"
+      position: [0, 0, -10]
+      direction: "toward_center"
+      description: >
+        A low tunnel between roots behind the visitor, suggesting they have
+        already crawled down into this space.
+
+  interactions:
+    - id: "lantern_gaze_soften"
+      type: "gaze_trigger"
+      target: "central_lantern"
+      conditions:
+        min_gaze_duration_seconds: 5
+      effects:
+        - type: "audio"
+          action: "fade_in"
+          clip_id: "low_heartlike_pulse"
+          target_volume: 0.35
+          duration_seconds: 3
+        - type: "visual"
+          action: "adjust_fog"
+          new_density: 0.25
+          duration_seconds: 4
+        - type: "note"
+          payload: "If the visitor keeps looking into the light, the darkness around them eases slightly."
+
+    - id: "pool_reflection_event"
+      type: "proximity_trigger"
+      target: "root_pool"
+      conditions:
+        radius: 1.2
+      effects:
+        - type: "visual"
+          action: "intensify_reflection"
+          strength: 1.4
+          duration_seconds: 5
+        - type: "note"
+          payload: "The pool shows the lantern clearly, but only a suggestion of the visitor."
+
+    - id: "stillness_threshold"
+      type: "stillness_trigger"
+      target: "scene"
+      conditions:
+        min_still_duration_seconds: 12
+      effects:
+        - type: "audio"
+          action: "fade_out"
+          clip_id: "dripping_cavern_water"
+          duration_seconds: 4
+        - type: "audio"
+          action: "fade_in"
+          clip_id: "deep_distant_roots"
+          target_volume: 0.25
+          duration_seconds: 6
+        - type: "note"
+          payload: "When the visitor becomes fully still, they can hear the slow movement of roots in the dark."
+
+  exits:
+    # Logical exit hooks – how you leave this space
+    - id: "return_to_roots_above"
+      type: "path_exit"
+      position: [0, 0, -10]
+      leads_to_scene: "sentinel-stone-clearing"
+      transition:
+        style: "fade_to_roots"
+        duration_seconds: 3
+
+    - id: "descend_further"
+      type: "gaze_exit"
+      target: "root_pool"
+      conditions:
+        min_gaze_duration_seconds: 15
+      leads_to_scene: "bridge-of-incomplete-stars"
+      transition:
+        style: "submerge_and_starlight"
+        duration_seconds: 6
