@@ -11,7 +11,9 @@ scene:
       - guidance
       - humility
       - inner-light
-
+  navigation:
+    default_exit: bridge-of-incomplete-stars
+    return_path: cavern-of-roots
   version: 1
 
   metadata:
