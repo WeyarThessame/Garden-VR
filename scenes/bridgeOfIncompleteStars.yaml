@@ -51,6 +51,7 @@ interaction_contract:
     pause_duration: >
       Sustained stillness allows the future path to resolve.
   constraints:
-    - No explicit prompts or warnings are given to the user.
-    - The system teaches only through environmental response.
+  - No explicit prompts or warnings are given to the user.
+  - The system teaches only through environmental response.
+  - There is no failure state, only loss of coherence.
 
