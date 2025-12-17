@@ -1,0 +1,27 @@
+id: multimodalCoherence
+name: Multimodal Coherence
+type: interaction-pattern
+
+intent:
+  Preserve meaning across modalities as capabilities evolve.
+  Text, image, sound, and spatial interaction are treated as
+  different expressions of the same symbolic source.
+
+constraints:
+  - Meaning must not be hard-coded exclusively into a single modality.
+  - A scene should have a shared symbolic source (concept, purpose, teaching).
+  - Modal representations may change, but coherence must remain.
+  - Future tooling should translate meaning, not reinvent it.
+
+appliesTo:
+  - scenes
+  - image generation
+  - narration
+  - interaction design
+  - future AI-assisted rendering
+
+notes:
+  This pattern exists to protect the Garden from fragmentation
+  as multimodal capabilities mature. It is declarative, not
+  executable, and serves as a guiding constraint rather than
+  a runtime rule.
