@@ -1,1 +1,42 @@
+id: coherenceThroughPresence
+name: Coherence Through Presence
+
+intent: >
+  Teach presence by allowing the environment to gain or lose coherence
+  in response to the user's pacing and attentional signals.
+
+use_when:
+  - The scene is a threshold
+  - The teaching is experiential, not instructional
+  - The future should not resolve until the present is inhabited
+
+signals:
+  - movement_speed
+  - acceleration
+  - pause_duration
+
+interpretation:
+  movement_speed: >
+    Treated as a semantic signal of presence, not as a challenge or skill metric.
+  acceleration: >
+    Sudden acceleration is interpreted as loss of presence and destabilizes the scene.
+  pause_duration: >
+    Sustained stillness stabilizes the environment and allows future elements to resolve.
+
+environment_response:
+  destabilize_on_haste: true
+  stabilize_on_stillness: true
+  coherence_is_continuous: true
+
+constraints:
+  - No UI prompts or warnings
+  - No explicit success or failure states
+  - No rewards or achievements
+  - No restoration of dissolved past elements
+
+completion:
+  type: recognition
+  description: >
+    The scene acknowledges presence through environmental coherence
+    or a threshold presence, not by declaring success.
 
