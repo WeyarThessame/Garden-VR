@@ -38,4 +38,19 @@ design_notes:
   - Stillness is required for the path to form ahead.
   - Placement: between the inner terrain of memory and the outer terrain of shared life.
 
+interaction_contract:
+  signals:
+    - movement_speed
+    - acceleration
+    - pause_duration
+  interpretation:
+    movement_speed: >
+      Used as a semantic signal of presence, not as a challenge modifier.
+    acceleration: >
+      Sudden acceleration destabilizes the environment more than sustained motion.
+    pause_duration: >
+      Sustained stillness allows the future path to resolve.
+  constraints:
+    - No explicit prompts or warnings are given to the user.
+    - The system teaches only through environmental response.
 
