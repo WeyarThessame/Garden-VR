@@ -1,0 +1,60 @@
+# patterns/userOffering.pattern.yaml
+
+id: userOffering
+name: "User Offering"
+version: 0.1.0
+
+description: >
+  A small, persistent symbol that appears in a scene when a visitor shares
+  something meaningful with the Garden. It acts as a marker of what was
+  offered in that place — a quiet reminder, not a scoreboard.
+
+rules:
+  offering:
+    summary: "When and how an offering is created."
+    triggers:
+      - type: explicit_action
+        action_id: "share_thought"
+        description: >
+          The visitor performs a clear intentional act: e.g., speaking a phrase,
+          placing text into a field, or holding still while focusing on a feeling.
+    constraints:
+      - "Offerings are created only when the visitor explicitly consents."
+      - "No offering is created from accidental or ambient data."
+      - "The Garden responds to sincerity, not volume — frequent spammy actions are ignored."
+
+  form:
+    summary: "How the offering chooses its visible form."
+    principles:
+      - "Form is simple, non-intrusive, and harmonizes with the scene."
+      - "Color / glow / shape are influenced by the tone of the offering
+         (e.g., gratitude, grief, curiosity)."
+      - "Each scene may define local variations (stones, lights, leaves, sigils),
+         but the underlying logic is shared."
+    example_mapping:
+      gratitude: "warm, steady glow"
+      grief: "soft, low light with slow pulse"
+      curiosity: "small, flickering point that gently orbits the visitor's path"
+
+  persistence:
+    summary: "How long an offering remains and how it can change."
+    rules:
+      - "Offerings are anchored to the location where they were made."
+      - "Offerings persist across sessions unless intentionally released
+         by the visitor or explicitly cleared by a Garden-wide ritual/event."
+      - "Offerings may 'fade' over long spans of time, becoming subtler rather
+         than disappearing abruptly."
+      - "Visitors can re-visit an offering to deepen or transform it instead
+         of creating endless new ones."
+
+engine_hints:
+  storage:
+    suggested_backend: "per-user offering log keyed by scene + coordinates"
+    privacy_note: >
+      What the visitor shares should be treated as personal and not exposed
+      to other visitors without explicit permission.
+
+  visual_defaults:
+    base_element_type: "small floating ember"
+    default_size: "tiny"
+    default_animation: "slow hover + soft pulse"
