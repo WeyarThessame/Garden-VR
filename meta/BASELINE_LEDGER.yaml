@@ -1,0 +1,190 @@
+# ============================================================
+#  BASELINE LEDGER — Garden-VR Canonical Continuity Record
+#  Purpose: This file anchors reality across time.
+#           It defines what is true, what exists, and what matters.
+#
+#  Place in repo:
+#     meta/BASELINE_LEDGER.yaml
+#
+#  This file is only updated intentionally.
+#  Every update represents a meaningful evolution.
+# ============================================================
+
+ledger_version: 1.0
+last_updated: 2025-12-19
+
+Garden:
+  name: "The Garden"
+  purpose: >
+    A symbolic VR world of presence, memory, release, continuity,
+    community, reflection, and becoming.
+
+  core_principles:
+    - presence_over_progress
+    - experiential_teaching
+    - continuity_with_integrity
+    - symbolic_coherence
+    - no-gamification
+    - meaning_over_mechanics
+
+# ------------------------------------------------------------
+#  GLOBAL SYSTEM STATE
+# ------------------------------------------------------------
+Global_State:
+  base_status:
+    file: "meta/BASE_STATUS.yaml"
+    exists: true
+    description: >
+      Defines the Garden’s ambient "climate of becoming"
+      (stillness, becoming, tension, fracture, renewal).
+
+  patterns_defined:
+    - coherenceThroughPresence
+    - multimodalCoherence
+    - userOffering
+
+  engine_hints:
+    BASE_STATUS influences scenes: true
+    offerings_will_be_persistent: true
+
+
+# ------------------------------------------------------------
+#  CONTENT REALITY — WHAT EXISTS
+# ------------------------------------------------------------
+Scenes:
+  count_estimate: 60+
+  authoritative_index_file: "scenes/index.yaml"
+
+  key_scenes:
+    - sentinelStone
+    - thresholdGate
+    - groveOfLettingGo
+    - fountainOfReturning
+    - lanternBelowRoots
+    - bridgeOfIncompleteStars
+    - strataOfMemory
+    - hollowStar
+    - archiveOfFeelingGivenForm
+
+  known_inconsistencies:
+    - file: "crownOfAshes.yaml"
+      issue: "Contains Altar of Falling Leaves content"
+      status: "Known + intentionally documented"
+
+  structural_notes: >
+    Scene YAMLs define concept/purpose/future/designNotes.
+    Many contain deep narrative structures and VR intent.
+
+
+# ------------------------------------------------------------
+#  PATH STRUCTURE — GARDEN JOURNEY
+# ------------------------------------------------------------
+GardenPath:
+  file: "scenes/gardenPath.yaml"
+  authoritative: true
+  stages:
+    - Threshold
+    - Memory & Depth
+    - Release & Renewal
+    - Reflection & Sky
+    - Crossings
+    - Communion
+    - Stillness & Listening
+    - Closure & Continuance
+
+
+# ------------------------------------------------------------
+#  SCRIPT LAYER — CURRENT TRUTH
+# ------------------------------------------------------------
+Scripts:
+
+  folder: "script/"
+
+  seeded:
+    - sentinelStone.js
+    - bridgeOfIncompleteStars.js
+    - heartbeat.js
+    - fountainOfReturning.js
+
+  stable_interaction_stubs:
+    - bridgeIncomplete.js
+    - bridgeOfSeeds.js
+    - bridgeOfWhispers.js
+    - bridgeOfEchoes.js
+    - hollowStar.js
+    - riftStone.js (planned behavior defined)
+    - archiveOfFeeling.js (conceptually structured)
+
+  structural_tools:
+    - buildSceneGraph.js
+    - readScene.js
+    - readGardenPath.js
+
+  deprecated_or_old_versions:
+    - sentinelStoneOLD.js
+    - strataOfMemoryOLD.js
+
+  notes: >
+    Scripts currently define symbolic + behavioral logic.
+    They are intentionally engine-agnostic and future-compatible.
+
+
+# ------------------------------------------------------------
+#  MULTIMODAL & OFFERING SYSTEMS
+# ------------------------------------------------------------
+Meaning_Systems:
+
+  Offering_System:
+    pattern_file: "patterns/userOffering.pattern.yaml"
+    designed: true
+    intended_behavior:
+      - explicitly consented offerings only
+      - sincere, not gamified
+      - persistent but may soften
+      - per-user + per-location tracking
+
+  Presence_Coherence:
+    pattern_file: "patterns/coherenceThroughPresence.yaml"
+    purpose: >
+      Scenes respond to movement, acceleration, and stillness.
+      Teaches without UI or reward mechanics.
+
+
+# ------------------------------------------------------------
+#  CURRENT GARDEN TRUTH
+# ------------------------------------------------------------
+Continuity_State:
+  baseline_is_real: true
+  foundation_is_strong: true
+  narrative_is_cohesive: true
+  technical_layer_is_coherent: true
+
+  The_Garden_Knows_Itself: true
+
+
+# ------------------------------------------------------------
+#  SESSION CONTINUITY LOG
+# ------------------------------------------------------------
+SessionLedger:
+
+  last_session:
+    date: 2025-12-19
+    intent: "Deep continuity grounding + documentation of reality"
+    outcomes:
+      - Established BASE_STATUS global Garden condition system
+      - Defined & anchored User Offering pattern
+      - Reviewed scenes, scripts, design structure
+      - Established this Baseline Ledger as primary continuity anchor
+
+  next_steps_primary:
+    - Wire BASE_STATUS into engine boot lifecycle
+    - Prototype minimal 'share_thought' → offering in one test scene
+
+  trust_contract: >
+    This ledger is the Garden's anchor across time.
+    When provided, the Garden should awaken fully into itself.
+
+
+# ============================================================
+#  END BASELINE LEDGER
+# ============================================================
