@@ -1,5 +1,3 @@
-# meta/BASE_STATUS.yaml
-
 id: baseGardenStatus
 version: 0.1.0
 last_updated: 2025-12-19
@@ -75,10 +73,6 @@ states:
     notes: >
       Used when a lesson / encounter has settled in. Ground feels more real.
 
-# Optional hooks the engine can use
 engine_hints:
-  # If true, scenes may adjust their own visuals/sounds based on current state.
   allow_scene_influence: true
-
-  # Suggest how often the global state is allowed to change in a single visit.
   min_state_duration_seconds: 300

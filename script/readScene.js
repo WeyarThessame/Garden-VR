@@ -1,29 +1,32 @@
 // script/readScene.js
+// Purpose: Load a scene YAML, attach its interaction stub, and run a tiny proof-of-life test.
+
 import fs from "fs";
 import yaml from "js-yaml";
 
-// Import interaction stubs
-import { initFountainOfReturning } from "./fountainOfReturning.js";
-import { initSentinelStone } from "./sentinelStone.js";
+// ---- Import interaction stubs (TEST HARNESS ONLY) ----
 import { createBridgeState, step, pause, halt, reset } from "./bridgeOfIncompleteStars.js";
 
 // --- Config: pick one scene to test ---
 const filePath = "./scenes/bridgeOfIncompleteStars.yaml"; // change to test other scenes
 
 // Registry: interaction_script -> initializer/handlers
+// This is a SIMPLE LOOKUP TABLE.
+// The string in YAML must match a key here.
 const interactionRegistry = {
-  fountainOfReturning: (ctx) => initFountainOfReturning(ctx),
-  sentinelStone: (ctx) => initSentinelStone(ctx),
-
-  // Bridge of Incomplete Stars (uses stateful handlers)
   bridgeOfIncompleteStars: (ctx) => {
     console.log("→ Initializing Bridge of Incomplete Stars stub…");
+
     const state = createBridgeState();
 
-    // For now, just expose handlers; later ctx.api will be real (renderer/audio)
     return {
       state,
-      handlers: { step, pause, halt, reset },
+      handlers: {
+        step,
+        pause,
+        halt,
+        reset,
+      },
     };
   },
 };
@@ -47,7 +50,7 @@ try {
     const result = interactionRegistry[interactionScript]({ scene: data });
     console.log("Interaction attached:", interactionScript);
 
-    // Tiny proof-of-life test: call a handler if present
+    // ---- Proof-of-life test ----
     if (result?.handlers?.step) {
       console.log("→ Running one 'step' to prove the stub is wired…");
       result.handlers.step(result.state, {

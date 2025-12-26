@@ -1,10 +1,10 @@
 // script/baseStatus.js
 // Global Garden "climate of becoming" loader.
-// Reads meta/BASE_STATUS.yaml and exposes helpers for the engine.
+// Reads meta/BASE_STATUS.yaml and exposes helpers.
 
 import fs from "fs";
 import path from "path";
-import YAML from "yaml"; // or `js-yaml` if that's what you're already using
+import YAML from "yaml"; // or 'js-yaml' if that's what your project uses
 
 const STATUS_PATH = path.join("meta", "BASE_STATUS.yaml");
 
@@ -24,27 +24,18 @@ function loadRawBaseStatus() {
   return cached;
 }
 
-/**
- * getBaseStatus()
- * Returns the entire parsed BASE_STATUS document.
- */
+// Return the whole BASE_STATUS document
 export function getBaseStatus() {
   return loadRawBaseStatus();
 }
 
-/**
- * getCurrentStateId()
- * For now this is just `default_state`. Later it can be dynamic.
- */
+// For now, current state = default_state (later we can change it)
 export function getCurrentStateId() {
   const status = loadRawBaseStatus();
   return status.current_state || status.default_state || "stillness";
 }
 
-/**
- * getCurrentStateConfig()
- * Returns the full object for the active state: ambient_light_profile, motion_bias, etc.
- */
+// Return the object for the active state
 export function getCurrentStateConfig() {
   const status = loadRawBaseStatus();
   const id = getCurrentStateId();
@@ -55,24 +46,4 @@ export function getCurrentStateConfig() {
   }
 
   return { id, ...state };
-}
-
-/**
- * projectStateOntoScene(scene)
- * Pure function: returns a new scene object with baseStatus attached.
- * Does NOT mutate the original scene object.
- */
-export function projectStateOntoScene(scene) {
-  const baseState = getCurrentStateConfig();
-
-  return {
-    ...scene,
-    baseStatus: {
-      id: baseState.id,
-      ambient_light_profile: baseState.ambient_light_profile,
-      motion_bias: baseState.motion_bias,
-      soundbed_profile: baseState.soundbed_profile,
-      symbolic_priority: baseState.symbolic_priority,
-    }
-  };
 }

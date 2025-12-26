@@ -1,9 +1,10 @@
-# Scenes
+# OLD_DRAFT_scripts
 
-This folder holds the symbolic places of the Garden, each as a YAML file.  
-Every scene contains:
-- `concept` — the vision of the place
-- `purpose` — what it teaches or invites
-- `future` — how it may appear in VR
+This folder contains legacy or exploratory interaction scripts.
 
-Together, these YAMLs form the narrative bones of the Garden.
+⚠️ These files are NOT used by the active Garden-VR runtime.
+
+Authoritative executable logic lives in:
+Garden-VR/script/
+
+This folder is preserved for reference only.

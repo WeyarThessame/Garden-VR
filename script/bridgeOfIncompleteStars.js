@@ -1,46 +1,39 @@
-// bridgeOfIncompleteStars.js
+// script/bridgeOfIncompleteStars.js
 // Interaction stub for the Bridge of Incomplete Stars.
-// Purpose: each step extends a glowing fragment, but the far side is unreachable.
+// This file is used by script/readScene.js (the test harness).
 
 export function createBridgeState() {
-  return { fragments: 0, halted: false };
+  return {
+    fragments: 0,
+    halted: false,
+    paused: false,
+  };
 }
 
-/**
- * step(state, api)
- * Adds a new glowing fragment if not halted.
- * api should implement: addFragment(index), playSound(name)
- */
 export function step(state, api) {
-  if (!state.halted) {
-    state.fragments += 1;
-    api.addFragment(state.fragments);
-    api.playSound("star-glimmer");
-  }
+  if (!state || state.halted) return;
+  if (state.paused) return;
+
+  state.fragments += 1;
+
+  // Proof-of-life hooks for the harness:
+  api?.addFragment?.(state.fragments);
+  api?.playSound?.("step");
 }
 
-/**
- * pause(state, api)
- * Pausing makes fragments shimmer brighter for a moment.
- */
-export function pause(state, api) {
-  api.playSound("shimmer");
+export function pause(state) {
+  if (!state || state.halted) return;
+  state.paused = true;
 }
 
-/**
- * halt(state, api)
- * Marks the bridge as incomplete—no further fragments extend.
- */
-export function halt(state, api) {
+export function halt(state) {
+  if (!state) return;
   state.halted = true;
-  api.playSound("silence");
 }
 
-/**
- * reset(state, api)
- * Clears all fragments and resets state.
- */
-export function reset(state, api) {
+export function reset(state) {
+  if (!state) return;
   state.fragments = 0;
   state.halted = false;
+  state.paused = false;
 }
