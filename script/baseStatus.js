@@ -4,9 +4,13 @@
 
 import fs from "fs";
 import path from "path";
-import YAML from "yaml"; // or 'js-yaml' if that's what your project uses
+import YAML from "yaml";
+import { fileURLToPath } from "url";
 
-const STATUS_PATH = path.join("meta", "BASE_STATUS.yaml");
+// Resolve path relative to project root, not current working dir
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const STATUS_PATH = path.join(__dirname, "..", "meta", "BASE_STATUS.yaml");
 
 let cached = null;
 
@@ -24,18 +28,21 @@ function loadRawBaseStatus() {
   return cached;
 }
 
+// --- Public API ---
+
 // Return the whole BASE_STATUS document
 export function getBaseStatus() {
   return loadRawBaseStatus();
 }
 
-// For now, current state = default_state (later we can change it)
+// Active state resolution
+// Prefer current_state → fallback to default_state → final fallback to "stillness"
 export function getCurrentStateId() {
   const status = loadRawBaseStatus();
   return status.current_state || status.default_state || "stillness";
 }
 
-// Return the object for the active state
+// Return full config block for current state
 export function getCurrentStateConfig() {
   const status = loadRawBaseStatus();
   const id = getCurrentStateId();

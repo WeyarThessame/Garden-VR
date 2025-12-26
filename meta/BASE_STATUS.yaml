@@ -9,6 +9,7 @@ description: >
   own condition.
 
 default_state: stillness
+current_state: stillness
 
 states:
   stillness:
