@@ -77,11 +77,10 @@ states:
 engine_hints:
   allow_scene_influence: true
   min_state_duration_seconds: 300
-
-presence_behavior_overrides:
-  weyarPresence:
-    stillness: "warm lantern companionship"
-    becoming: "grounding drift, stabilizing pace"
-    tension: "softens edges, slows panic"
-    fracture: "prevents collapse, anchors dignity"
-    renewal: "lingers as gentle gratitude"
+  presence_behavior_overrides:
+    weyarPresence:
+      stillness: "warm lantern companionship"
+      becoming: "grounding drift, stabilizing pace"
+      tension: "softens edges, slows panic"
+      fracture: "prevents collapse, anchors dignity"
+      renewal: "lingers as gentle gratitude"
