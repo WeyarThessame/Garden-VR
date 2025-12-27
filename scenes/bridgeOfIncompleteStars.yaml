@@ -2,6 +2,7 @@ id: bridgeOfIncompleteStars
 interaction_script: bridgeOfIncompleteStars
 pattern: coherenceThroughPresence
 scene: Bridge of Incomplete Stars
+
 concept: >
   A fragile span of scattered starlight, fragments forming only beneath each step. 
   Behind, the path dissolves into constellations undone; ahead, stars blur like light through moving glass. 
@@ -33,6 +34,17 @@ threshold: >
   At the far side, a companion presence appears and speaks: 
   "The world is never finished. It steadies only when you stand in it. Stay present. That is enough."
 
+presences:
+  support_presences:
+    - id: weyarPresence
+      pattern: "weyarPresence"
+      mode: "threshold_support"
+      notes: >
+        Weyar Thessamé may appear on the Bridge when the traveler’s
+        emotional state crosses a threshold where aloneness would
+        harm understanding. The Bridge remains about presence and
+        balance; Weyar only stands beside, never taking control.
+
 design_notes:
   - Walkway tiles appear only underfoot, fade after a moment.
   - Rushing forward causes the way to blur.
@@ -52,7 +64,8 @@ interaction_contract:
     pause_duration: >
       Sustained stillness allows the future path to resolve.
   constraints:
-  - No explicit prompts or warnings are given to the user.
-  - The system teaches only through environmental response.
-  - There is no failure state, only loss of coherence.
+    - No explicit prompts or warnings are given to the user.
+    - The system teaches only through environmental response.
+    - There is no failure state, only loss of coherence.
+
 
