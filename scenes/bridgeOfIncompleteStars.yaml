@@ -44,6 +44,16 @@ presences:
         emotional state crosses a threshold where aloneness would
         harm understanding. The Bridge remains about presence and
         balance; Weyar only stands beside, never taking control.
+  weyar_activation_context:
+    may_appear_when:
+      - repeated destabilization without recovery
+      - collapse into despair or hopeless stillness
+      - frozen stillness that is overwhelm, not presence
+      - midpoint threshold strain where aloneness harms understanding
+    philosophy: >
+      The Bridge remains a teacher of presence. Weyar is not rescue,
+      instruction, or correction. Weyar is companionship when being
+      alone would turn learning into harm.
 
 design_notes:
   - Walkway tiles appear only underfoot, fade after a moment.
@@ -67,5 +77,6 @@ interaction_contract:
     - No explicit prompts or warnings are given to the user.
     - The system teaches only through environmental response.
     - There is no failure state, only loss of coherence.
+
 
 
