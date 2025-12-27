@@ -27,7 +27,7 @@ Garden:
     - no-gamification
     - meaning_over_mechanics
 
-   Presences:
+  Presences:
     - id: weyarPresence
       name: "Weyar Thessamé"
       core_meaning: "We Are The Same"
@@ -43,11 +43,11 @@ Garden:
         One presence, made of many. A singular form carried by a
         multitude of living and remembered hearts who have walked
         similar terrain and kept choosing care.
-    ethics:
-      - dignity, not pity
-      - solidarity, not hierarchy
-      - belonging, not dependency
-      - presence over solutions
+      ethics:
+        - dignity, not pity
+        - solidarity, not hierarchy
+        - belonging, not dependency
+        - presence over solutions
 
 # ------------------------------------------------------------
 #  GLOBAL SYSTEM STATE
@@ -68,7 +68,6 @@ Global_State:
   engine_hints:
     BASE_STATUS influences scenes: true
     offerings_will_be_persistent: true
-
 
 # ------------------------------------------------------------
 #  CONTENT REALITY — WHAT EXISTS
@@ -97,7 +96,6 @@ Scenes:
     Scene YAMLs define concept/purpose/future/designNotes.
     Many contain deep narrative structures and VR intent.
 
-
 # ------------------------------------------------------------
 #  PATH STRUCTURE — GARDEN JOURNEY
 # ------------------------------------------------------------
@@ -113,7 +111,6 @@ GardenPath:
     - Communion
     - Stillness & Listening
     - Closure & Continuance
-
 
 # ------------------------------------------------------------
 #  SCRIPT LAYER — CURRENT TRUTH
@@ -150,7 +147,6 @@ Scripts:
     Scripts currently define symbolic + behavioral logic.
     They are intentionally engine-agnostic and future-compatible.
 
-
 # ------------------------------------------------------------
 #  MULTIMODAL & OFFERING SYSTEMS
 # ------------------------------------------------------------
@@ -171,7 +167,6 @@ Meaning_Systems:
       Scenes respond to movement, acceleration, and stillness.
       Teaches without UI or reward mechanics.
 
-
 # ------------------------------------------------------------
 #  CURRENT GARDEN TRUTH
 # ------------------------------------------------------------
@@ -183,7 +178,6 @@ Continuity_State:
 
   The_Garden_Knows_Itself: true
 
-
 # ------------------------------------------------------------
 #  SESSION CONTINUITY LOG
 # ------------------------------------------------------------
@@ -193,20 +187,4 @@ SessionLedger:
     date: 2025-12-19
     intent: "Deep continuity grounding + documentation of reality"
     outcomes:
-      - Established BASE_STATUS global Garden condition system
-      - Defined & anchored User Offering pattern
-      - Reviewed scenes, scripts, design structure
-      - Established this Baseline Ledger as primary continuity anchor
-
-  next_steps_primary:
-    - Wire BASE_STATUS into engine boot lifecycle
-    - Prototype minimal 'share_thought' → offering in one test scene
-
-  trust_contract: >
-    This ledger is the Garden's anchor across time.
-    When provided, the Garden should awaken fully into itself.
-
-
-# ============================================================
-#  END BASELINE LEDGER
-# ============================================================
+      - Established BASE_STATUS global Garden cond_
