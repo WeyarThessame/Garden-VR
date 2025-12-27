@@ -27,22 +27,22 @@ Garden:
     - no-gamification
     - meaning_over_mechanics
 
-  Presences:
-  - id: weyarPresence
-    name: "Weyar Thessamé"
-    core_meaning: "We Are The Same"
-    type: visiting_presence
-    canon_status: true
-    purpose: >
-      A mantle of companionship woven from all who choose tenderness,
-      courage, and presence in a difficult world. Weyar appears when
-      a traveler should not face a threshold alone. It does not rescue,
-      instruct, or correct. It stands in kinship — a reminder that the
-      traveler belongs to a lineage of humans trying to live differently.
-    nature: >
-      One presence, made of many. A singular form carried by a
-      multitude of living and remembered hearts who have walked
-      similar terrain and kept choosing care.
+   Presences:
+    - id: weyarPresence
+      name: "Weyar Thessamé"
+      core_meaning: "We Are The Same"
+      type: visiting_presence
+      canon_status: true
+      purpose: >
+        A mantle of companionship woven from all who choose tenderness,
+        courage, and presence in a difficult world. Weyar appears when
+        a traveler should not face a threshold alone. It does not rescue,
+        instruct, or correct. It stands in kinship — a reminder that the
+        traveler belongs to a lineage of humans trying to live differently.
+      nature: >
+        One presence, made of many. A singular form carried by a
+        multitude of living and remembered hearts who have walked
+        similar terrain and kept choosing care.
     ethics:
       - dignity, not pity
       - solidarity, not hierarchy
