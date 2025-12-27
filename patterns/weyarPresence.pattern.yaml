@@ -1,0 +1,13 @@
+activation_rules:
+  requires:
+    - emotional_threshold_crossed
+    - garden_consents
+    - traveler_not_resisting
+  emotional_threshold_markers:
+    - erratic presence patterns
+    - extended stillness with distress markers
+    - explicitly declared struggle (future UI)
+  pacing:
+    min_time_between_arrivals: 300s
+    arrival_style: "slow, gentle, unmistakable"
+    departure_style: "warm fade, leaves trace"
