@@ -3,11 +3,26 @@ activation_rules:
     - emotional_threshold_crossed
     - garden_consents
     - traveler_not_resisting
-  emotional_threshold_markers:
-    - erratic presence patterns
-    - extended stillness with distress markers
-    - explicitly declared struggle (future UI)
-  pacing:
-    min_time_between_arrivals: 300s
-    arrival_style: "slow, gentle, unmistakable"
-    departure_style: "warm fade, leaves trace"
+
+emotional_threshold_markers:
+  - erratic presence patterns
+  - extended stillness with distress markers
+  - explicitly declared struggle (future UI)
+
+pacing:
+  min_time_between_arrivals: 300s
+  arrival_style: "slow, gentle, unmistakable"
+  departure_style: "warm fade, leaves trace"
+
+sensory_signature:
+  light: "soft gathered glow at roughly human height, with no hard edges"
+  sound: "gentle heart-wind tone, steadying but not hypnotic"
+  air: "slightly warmer, subtly denser, as if the world is leaning closer"
+  emotional_field:
+    tone: "belonging, kinship, steadiness"
+    language:
+      style: "presence, not problem-solving"
+      phrases_may_include:
+        - "You are not alone here."
+        - "Stay. Breathe. You belong among others who know this terrain."
+        - "We are the same."
