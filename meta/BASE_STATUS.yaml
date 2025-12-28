@@ -1,19 +1,16 @@
 id: baseGardenStatus
 version: 0.1.0
 last_updated: 2025-12-26
-
 description: >
-  Global ambient state for the Garden-VR. This defines the underlying
-  "climate of becoming" that all scenes inherit unless they explicitly override
-  specific fields. It is not a mood toggle for the user; it is the Garden's
-  own condition.
-
+  Global ambient state for the Garden-VR. This defines the underlying "climate
+  of becoming" that all scenes inherit unless they explicitly override specific
+  fields. It is not a mood toggle for the user; it is the Garden's own
+  condition.
 default_state: stillness
-current_state: stillness
-
+current_state: tension
 states:
   stillness:
-    label: "Stillness — The Garden is Holding Breath"
+    label: Stillness — The Garden is Holding Breath
     ambient_light_profile: soft_dawn
     motion_bias: slow
     soundbed_profile: distant_wind
@@ -21,11 +18,10 @@ states:
       - reflection
       - memory
       - listening
-    notes: >
+    notes: |
       Used when the Garden is resting, integrating, or inviting quiet noticing.
-
   becoming:
-    label: "Becoming — The Garden is Changing"
+    label: Becoming — The Garden is Changing
     ambient_light_profile: shifting_haze
     motion_bias: gentle_drift
     soundbed_profile: low_current
@@ -36,9 +32,8 @@ states:
     notes: >
       Used when something is in process but not yet decided. Edges are softer,
       forms are slightly unfixed.
-
   tension:
-    label: "Tension — The Garden Is Listening Hard"
+    label: Tension — The Garden Is Listening Hard
     ambient_light_profile: high_contrast
     motion_bias: irregular
     soundbed_profile: taut_strings
@@ -47,11 +42,10 @@ states:
       - truth
       - alignment
     notes: >
-      Used when there is friction that wants attention. Not danger, but
-      a pull toward honesty.
-
+      Used when there is friction that wants attention. Not danger, but a pull
+      toward honesty.
   fracture:
-    label: "Fracture — The Garden Knows Something Must Be Faced"
+    label: Fracture — The Garden Knows Something Must Be Faced
     ambient_light_profile: cracked_light
     motion_bias: unstable
     soundbed_profile: broken_echoes
@@ -59,11 +53,10 @@ states:
       - confrontation
       - shadow
       - decision
-    notes: >
+    notes: |
       Used sparingly. Reality feels less stable. Invites reckoning, not panic.
-
   renewal:
-    label: "Renewal — Something Has Been Integrated"
+    label: Renewal — Something Has Been Integrated
     ambient_light_profile: warm_glow
     motion_bias: steady
     soundbed_profile: quiet_heart
@@ -71,16 +64,15 @@ states:
       - gratitude
       - integration
       - continuity
-    notes: >
+    notes: |
       Used when a lesson / encounter has settled in. Ground feels more real.
-
 engine_hints:
   allow_scene_influence: true
   min_state_duration_seconds: 300
   presence_behavior_overrides:
     weyarPresence:
-      stillness: "warm lantern companionship"
-      becoming: "grounding drift, stabilizing pace"
-      tension: "softens edges, slows panic"
-      fracture: "prevents collapse, anchors dignity"
-      renewal: "lingers as gentle gratitude"
+      stillness: warm lantern companionship
+      becoming: grounding drift, stabilizing pace
+      tension: softens edges, slows panic
+      fracture: prevents collapse, anchors dignity
+      renewal: lingers as gentle gratitude
