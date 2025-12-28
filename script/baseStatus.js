@@ -30,19 +30,19 @@ function loadRawBaseStatus() {
 
 // --- Public API ---
 
-// Return the whole BASE_STATUS document
+// Full BASE_STATUS document
 export function getBaseStatus() {
   return loadRawBaseStatus();
 }
 
-// Active state resolution
-// Prefer current_state → fallback to default_state → final fallback to "stillness"
+// Returns the current state's ID
+// Prefers current_state → fallback to default_state → finally "stillness"
 export function getCurrentStateId() {
   const status = loadRawBaseStatus();
   return status.current_state || status.default_state || "stillness";
 }
 
-// Return full config block for current state
+// Returns full config for the active climate state
 export function getCurrentStateConfig() {
   const status = loadRawBaseStatus();
   const id = getCurrentStateId();
@@ -53,4 +53,30 @@ export function getCurrentStateConfig() {
   }
 
   return { id, ...state };
+}
+
+// --- Engine & Presence Helpers ---
+
+// Returns engine_hints block safely
+export function getEngineHints() {
+  const status = loadRawBaseStatus();
+  return status.engine_hints || {};
+}
+
+// Returns state-specific presence override if it exists
+// If stateId omitted → uses current Garden state
+export function getPresenceBehaviorFor(presenceId, stateId) {
+  const status = loadRawBaseStatus();
+  const state = stateId || getCurrentStateId();
+
+  const overrides =
+    status.engine_hints &&
+    status.engine_hints.presence_behavior_overrides;
+
+  if (!overrides) return null;
+
+  const perPresence = overrides[presenceId];
+  if (!perPresence) return null;
+
+  return perPresence[state] || null;
 }

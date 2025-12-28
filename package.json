@@ -1,7 +1,16 @@
 {
+  "name": "Garden-VR",
+  "version": "1.0.0",
+  "description": "Metanoia Garden — symbolic VR world of presence, memory, release, continuity, and becoming.",
+  "type": "module",
+
   "dependencies": {
     "js-yaml": "^4.1.1",
     "three": "^0.182.0",
     "yaml": "^2.8.2"
+  },
+
+  "scripts": {
+    "inspect:climate": "node script/inspectBaseStatus.js"
   }
 }
