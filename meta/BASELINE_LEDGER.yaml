@@ -59,6 +59,33 @@ Global_State:
     description: >
       Defines the Garden’s ambient "climate of becoming"
       (stillness, becoming, tension, fracture, renewal).
+    authoritative: true
+
+  climate_system:
+    name: "Garden Climate of Becoming"
+    description: >
+      A global inner weather that all scenes may inherit.
+      It is not a user mood toggle, but the Garden's own condition:
+      how watchful, quiet, strained, or integrated the world is.
+    authoritative_source: "meta/BASE_STATUS.yaml"
+
+    states:
+      - stillness
+      - becoming
+      - tension
+      - fracture
+      - renewal
+
+    climate_aware_scenes:
+      - bridgeOfIncompleteStars     # motion & fragment formation respond to climate
+      - hollowStar                  # core glow, forgiveness of movement
+      - sentinelStone               # pulse & vigilance intensity
+      - groveOfLettingGo            # ease and generosity of release
+
+    notes: >
+      These scenes already read from BASE_STATUS and adapt behavior to
+      the current climate. Future scenes should treat BASE_STATUS as the
+      single source of truth for global Garden state.
 
   patterns_defined:
     - coherenceThroughPresence
@@ -66,7 +93,8 @@ Global_State:
     - userOffering
 
   engine_hints:
-    BASE_STATUS influences scenes: true
+    BASE_STATUS influences_scenes: true
+    climate_system_is_global: true
     offerings_will_be_persistent: true
 
 # ------------------------------------------------------------
@@ -187,4 +215,5 @@ SessionLedger:
     date: 2025-12-19
     intent: "Deep continuity grounding + documentation of reality"
     outcomes:
-      - Established BASE_STATUS global Garden cond_
+      - "Established BASE_STATUS global Garden id: baseGardenStatus"
+
