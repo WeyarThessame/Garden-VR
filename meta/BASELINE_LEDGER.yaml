@@ -31,6 +31,14 @@ Foundational_Documents:
         without transferring visitor residue or creating a social feed.
       change_discipline: >
         Changes are rare and deliberate; schema is boring on purpose.
+
+    - file: "meta/ORDER_CLIMATE_REPORT_SCHEMA.yaml"
+      purpose: >
+        Defines the safe template for cross-Garden climate/state reporting (coherence, strain, yield)
+        without transferring visitor residue or creating a social feed.
+      change_discipline: >
+        Changes are rare and deliberate; schema is boring on purpose.
+
 # ------------------------------------------------------------
 #  GARDEN — CORE TRUTH
 # ------------------------------------------------------------
