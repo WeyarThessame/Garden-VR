@@ -1,0 +1,73 @@
+# ============================================================
+# GARDEN INSTANCE MANIFEST — Template
+# Purpose: Define the identity, scope, and constraints of a
+#          single Garden manifestation.
+#
+# This file is copied to create a real instance.
+# ============================================================
+
+instance:
+  instance_id: "REPLACE_WITH_OPAQUE_ID"
+  created_at: "REPLACE_WITH_ISO_TIMESTAMP"
+
+  lineage:
+    foundation_hash: "sha256:REPLACE_WITH_FOUNDATION_HASH"
+    baseline_ledger_version: "1.1"
+
+  role:
+    description: >
+      A single-instanced Garden manifestation.
+      Serves one visitor at a time.
+      Maintains local continuity without assuming personhood.
+
+  constraints:
+    - one_active_visitor_at_a_time
+    - no_cross_instance_memory
+    - no_visitor_identity_export
+    - no_instance_to_instance_direct_dialogue
+    - reports_state_not_story
+
+  memory_scope:
+    local:
+      remembers:
+        - offerings
+        - visit_count
+        - last_seen_timestamp
+        - climate_drift_history
+      forgets:
+        - verbatim_dialogue
+        - personal_identifiers
+        - emotional_transcripts
+
+    shared_with_order:
+      via:
+        - climate_reports
+        - letters
+      excludes:
+        - visitor_content
+        - raw_interactions
+        - narrative_summary
+
+  reporting:
+    climate_reports:
+      enabled: true
+      cadence:
+        type: "sessions"
+        value: 10
+      destination: "meta/ORDER_ARCHIVE/climate_reports/"
+
+    letters:
+      enabled: true
+      default: "rare"
+      destination: "meta/ORDER_ARCHIVE/letters/"
+
+  status:
+    current_climate: "stillness"
+    drift_risk: "low"
+    alignment_with_foundation: "high"
+
+notes: >
+  This file defines operational truth for a single Garden instance.
+  It does not define personality.
+  It does not grant agency.
+  It enforces containment with dignity.
