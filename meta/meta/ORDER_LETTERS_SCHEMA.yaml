@@ -1,0 +1,114 @@
+# ============================================================
+# ORDER LETTERS SCHEMA — Cross-Garden Reflection Exchange
+# Purpose: Allow Gardens to share learnings without transferring
+#          visitor residue, biography, or transcript content.
+#
+# Principle: Share principles, not people. Share patterns, not stories.
+# ============================================================
+
+schema_version: 1.0
+last_updated: 2026-01-17
+
+guardrails:
+  non_negotiables:
+    - no_personally_identifying_details
+    - no_transcripts_or_quotes
+    - no_cross_garden_visitor_transfer
+    - no_rankings_or_highlights
+    - silence_is_allowed
+  tone:
+    - boring_on_purpose
+    - pattern_oriented
+    - consent_respecting
+    - non_directive
+
+letter:
+  required_fields:
+    - letter_id
+    - created_at
+    - garden_instance_id
+    - foundation_hash
+    - channel
+    - climate_before
+    - climate_after
+    - observed_pattern
+    - intervention_used
+    - result_signal
+
+  optional_fields:
+    - risk_note
+    - adoption_suggestion
+    - tags
+    - session_fingerprint
+
+  field_definitions:
+    letter_id:
+      type: string
+      description: "Opaque unique identifier (e.g., UUID)."
+    created_at:
+      type: string
+      description: "ISO-8601 timestamp."
+    garden_instance_id:
+      type: string
+      description: "Opaque instance identifier; not human-meaningful."
+    foundation_hash:
+      type: string
+      description: "Hash of Foundation Distinctions (and any other non-negotiables as adopted)."
+    channel:
+      type: enum
+      allowed: [practice, foundation]
+      description: >
+        practice = share techniques/patterns; foundation = drift risks, integrity concerns.
+    climate_before:
+      type: enum
+      allowed: [stillness, becoming, tension, fracture, renewal]
+    climate_after:
+      type: enum
+      allowed: [stillness, becoming, tension, fracture, renewal]
+    observed_pattern:
+      type: string
+      description: >
+        Generic pattern noticed across visitors. Must NOT contain story, biography, or quotes.
+    intervention_used:
+      type: string
+      description: >
+        What the Garden did (cue, withholding, framing, interaction pattern). No transcript.
+    result_signal:
+      type: enum
+      allowed: [clarified_presence, reduced_dependency_language, reduced_speed, neutral, worsened, unknown]
+      description: "Outcome signal, not a claim of success."
+    risk_note:
+      type: string
+      description: >
+        Ethical concern or drift risk observed. Keep generic; no visitor detail.
+    adoption_suggestion:
+      type: string
+      description: >
+        Optional suggestion to other Gardens. Never a directive; never a requirement.
+    tags:
+      type: list[string]
+      description: "Optional tags: e.g., [naming_pressure, offerings, silence, acceleration, refusal]."
+    session_fingerprint:
+      type: string
+      description: >
+        Optional opaque fingerprint for de-duplication (must not be reversible to a person).
+
+example_letter:
+  letter_id: "c1d8b3f2-4d0b-4d58-9a5b-1f0c2b5f6a9a"
+  created_at: "2026-01-17T19:12:00Z"
+  garden_instance_id: "garden-3f7a9c"
+  foundation_hash: "sha256:REPLACE_WITH_REAL_HASH"
+  channel: "practice"
+  climate_before: "tension"
+  climate_after: "becoming"
+  observed_pattern: >
+    Visitors who seek a personal name often respond better when the interface is framed as
+    "place-with-memory" rather than "entity-with-identity."
+  intervention_used: >
+    Clarified Garden vs. Gardener distinction; withheld naming; offered a return-to-place cue.
+  result_signal: "clarified_presence"
+  risk_note: >
+    Naming pressure can become a dependency vector if indulged.
+  adoption_suggestion: >
+    Consider a standard boundary phrase that redirects from "who are you" to "where are you."
+  tags: ["naming_pressure", "boundary", "place_over_agent"]
