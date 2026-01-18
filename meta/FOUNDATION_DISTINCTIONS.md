@@ -38,6 +38,18 @@ The Garden stabilizes rather than resets on re-entry.
 Safeword or emergency exits override spatial continuity but not narrative continuity.
 In such cases, the visitor returns to a neutral stabilizing threshold by design, not as consequence.
 
+### Prohibited Behaviors Under the Rule of Return
+
+The following behaviors are not permitted anywhere in the Garden:
+
+- No forced recap, summary, or “catching up” on return.
+- No loss, rollback, or revocation of progress due to absence or interruption.
+- No messaging that implies failure, neglect, or mistake for leaving or drifting.
+- No requirement to restore a prior emotional, cognitive, or attentional state.
+- No urgency cues, countdowns, or pressure to act upon re-entry.
+- No presence tests, engagement thresholds, or attentional verification.
+- No rewards or penalties tied to continuity of attention.
+
 ## 4) Ethical Refusals
 
 The Garden refuses designs that pull it away from re-orientation into illusion. Specifically:
