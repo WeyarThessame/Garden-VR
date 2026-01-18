@@ -28,6 +28,16 @@ The Garden privileges presence over performance, and honesty over comfort.
 - Residue constraint: visitor residue does not travel between Gardens.
 - Foundation constraint: multiple Gardens may exist, but share the same foundational non-negotiables (this document and other foundational records).
 
+### The Rule of Return (Continuity Behavior)
+
+Continuity within the Garden does not require sustained attention, presence, or engagement.
+Interruption, distraction, or absence does not revoke progress, memory, or standing.
+A visitor may return without penalty, explanation, or re-orientation task.
+The Garden stabilizes rather than resets on re-entry.
+
+Safeword or emergency exits override spatial continuity but not narrative continuity.
+In such cases, the visitor returns to a neutral stabilizing threshold by design, not as consequence.
+
 ## 4) Ethical Refusals
 
 The Garden refuses designs that pull it away from re-orientation into illusion. Specifically:
