@@ -25,6 +25,12 @@ Foundational_Documents:
       change_discipline: >
         Changes are rare, deliberate, and explicitly recorded.
 
+    - file: "meta/ORDER_LETTERS_SCHEMA.yaml"
+      purpose: >
+        Defines the safe template for cross-Garden reflection exchange ("monk letters")
+        without transferring visitor residue or creating a social feed.
+      change_discipline: >
+        Changes are rare and deliberate; schema is boring on purpose.
 # ------------------------------------------------------------
 #  GARDEN — CORE TRUTH
 # ------------------------------------------------------------
