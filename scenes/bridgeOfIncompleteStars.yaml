@@ -60,6 +60,10 @@ design_notes:
   - Rushing forward causes the way to blur.
   - Stillness is required for the path to form ahead.
   - Placement: between the inner terrain of memory and the outer terrain of shared life.
+  - The Bridge responds to current interaction, not past absence.
+  - Re-entry does not increase instability, remove fragments, or create urgency.
+  - Leaving and returning later never alters the Bridge’s behavior.
+
 
 interaction_contract:
   signals:
