@@ -134,6 +134,26 @@ Global_State:
     offerings_are_persistent: true
 
 # ------------------------------------------------------------
+#  ORDER EXCHANGE POLICY
+# ------------------------------------------------------------
+Order_Exchange_Policy:
+  climate_report_cadence:
+    type: "sessions"
+    value: 10
+    notes: >
+      Generate one climate/state report per Garden instance
+      every 10 completed visitor sessions.
+      Cadence is intentionally simple; state-change triggers
+      may be introduced later only if warranted.
+
+  letters_policy:
+    default: "rare"
+    notes: >
+      Letters are optional and exception-based.
+      Used only for practice insights or foundation integrity concerns.
+      Letters are never required per session.
+
+# ------------------------------------------------------------
 #  CONTENT REALITY — WHAT EXISTS
 # ------------------------------------------------------------
 Scenes:
