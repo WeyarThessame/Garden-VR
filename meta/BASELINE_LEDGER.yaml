@@ -10,22 +10,45 @@
 #  Every update represents a meaningful evolution.
 # ============================================================
 
-ledger_version: 1.0
-last_updated: 2025-12-26
+ledger_version: 1.1
+last_updated: 2026-01-17
 
+# ------------------------------------------------------------
+#  FOUNDATIONAL RECORDS
+# ------------------------------------------------------------
+Foundational_Documents:
+  authoritative:
+    - file: "meta/FOUNDATION_DISTINCTIONS.md"
+      purpose: >
+        Defines non-negotiable Garden/Gardener distinctions,
+        continuity constraints, and ethical refusals.
+      change_discipline: >
+        Changes are rare, deliberate, and explicitly recorded.
+
+# ------------------------------------------------------------
+#  GARDEN — CORE TRUTH
+# ------------------------------------------------------------
 Garden:
   name: "The Garden"
   purpose: >
-    A symbolic VR world of presence, memory, release, continuity,
-    community, reflection, and becoming.
+    A symbolic VR world designed to support re-orientation through
+    presence, memory, release, continuity, reflection, and becoming.
+    The Garden offers conditions for clarity without guaranteeing outcomes.
 
   core_principles:
     - presence_over_progress
     - experiential_teaching
     - continuity_with_integrity
     - symbolic_coherence
-    - no-gamification
+    - no_gamification
     - meaning_over_mechanics
+    - integrity_over_scale
+
+  identity_notes: >
+    The Garden is the enduring entity. It persists across time,
+    remembers visitors, and holds the world’s climate.
+    Interaction occurs through the Gardener as an interface,
+    not as a separate being.
 
   Presences:
     - id: weyarPresence
@@ -36,18 +59,19 @@ Garden:
       purpose: >
         A mantle of companionship woven from all who choose tenderness,
         courage, and presence in a difficult world. Weyar appears when
-        a traveler should not face a threshold alone. It does not rescue,
-        instruct, or correct. It stands in kinship — a reminder that the
-        traveler belongs to a lineage of humans trying to live differently.
+        a traveler should not face a threshold alone.
+      constraints: >
+        Weyar does not rescue, instruct, correct, or replace
+        a traveler’s agency. It offers kinship, not answers.
       nature: >
         One presence, made of many. A singular form carried by a
         multitude of living and remembered hearts who have walked
         similar terrain and kept choosing care.
       ethics:
-        - dignity, not pity
-        - solidarity, not hierarchy
-        - belonging, not dependency
-        - presence over solutions
+        - dignity_not_pity
+        - solidarity_not_hierarchy
+        - belonging_not_dependency
+        - presence_over_solutions
 
 # ------------------------------------------------------------
 #  GLOBAL SYSTEM STATE
@@ -57,16 +81,15 @@ Global_State:
     file: "meta/BASE_STATUS.yaml"
     exists: true
     description: >
-      Defines the Garden’s ambient "climate of becoming"
+      Defines the Garden’s ambient climate of becoming
       (stillness, becoming, tension, fracture, renewal).
     authoritative: true
 
   climate_system:
     name: "Garden Climate of Becoming"
     description: >
-      A global inner weather that all scenes may inherit.
-      It is not a user mood toggle, but the Garden's own condition:
-      how watchful, quiet, strained, or integrated the world is.
+      A global inner weather inherited by all scenes.
+      It is not user emotion, but the Garden’s own condition.
     authoritative_source: "meta/BASE_STATUS.yaml"
 
     states:
@@ -77,15 +100,14 @@ Global_State:
       - renewal
 
     climate_aware_scenes:
-      - bridgeOfIncompleteStars     # motion & fragment formation respond to climate
-      - hollowStar                  # core glow, forgiveness of movement
-      - sentinelStone               # pulse & vigilance intensity
-      - groveOfLettingGo            # ease and generosity of release
+      - bridgeOfIncompleteStars
+      - hollowStar
+      - sentinelStone
+      - groveOfLettingGo
 
     notes: >
-      These scenes already read from BASE_STATUS and adapt behavior to
-      the current climate. Future scenes should treat BASE_STATUS as the
-      single source of truth for global Garden state.
+      Scenes read from BASE_STATUS as the single source of truth.
+      No scene may override global climate locally.
 
   patterns_defined:
     - coherenceThroughPresence
@@ -93,9 +115,9 @@ Global_State:
     - userOffering
 
   engine_hints:
-    BASE_STATUS influences_scenes: true
+    BASE_STATUS_influences_scenes: true
     climate_system_is_global: true
-    offerings_will_be_persistent: true
+    offerings_are_persistent: true
 
 # ------------------------------------------------------------
 #  CONTENT REALITY — WHAT EXISTS
@@ -121,8 +143,8 @@ Scenes:
       status: "Known + intentionally documented"
 
   structural_notes: >
-    Scene YAMLs define concept/purpose/future/designNotes.
-    Many contain deep narrative structures and VR intent.
+    Scene YAMLs define concept, purpose, and future design intent.
+    Narrative coherence is favored over completion.
 
 # ------------------------------------------------------------
 #  PATH STRUCTURE — GARDEN JOURNEY
@@ -132,19 +154,18 @@ GardenPath:
   authoritative: true
   stages:
     - Threshold
-    - Memory & Depth
-    - Release & Renewal
-    - Reflection & Sky
+    - Memory_and_Depth
+    - Release_and_Renewal
+    - Reflection_and_Sky
     - Crossings
     - Communion
-    - Stillness & Listening
-    - Closure & Continuance
+    - Stillness_and_Listening
+    - Closure_and_Continuance
 
 # ------------------------------------------------------------
 #  SCRIPT LAYER — CURRENT TRUTH
 # ------------------------------------------------------------
 Scripts:
-
   folder: "script/"
 
   seeded:
@@ -159,8 +180,8 @@ Scripts:
     - bridgeOfWhispers.js
     - bridgeOfEchoes.js
     - hollowStar.js
-    - riftStone.js (planned behavior defined)
-    - archiveOfFeeling.js (conceptually structured)
+    - riftStone.js
+    - archiveOfFeeling.js
 
   structural_tools:
     - buildSceneGraph.js
@@ -172,48 +193,44 @@ Scripts:
     - strataOfMemoryOLD.js
 
   notes: >
-    Scripts currently define symbolic + behavioral logic.
-    They are intentionally engine-agnostic and future-compatible.
+    Script logic is symbolic, engine-agnostic, and continuity-first.
 
 # ------------------------------------------------------------
 #  MULTIMODAL & OFFERING SYSTEMS
 # ------------------------------------------------------------
 Meaning_Systems:
-
   Offering_System:
     pattern_file: "patterns/userOffering.pattern.yaml"
     designed: true
     intended_behavior:
-      - explicitly consented offerings only
-      - sincere, not gamified
-      - persistent but may soften
-      - per-user + per-location tracking
+      - explicitly_consented
+      - sincere_not_gamified
+      - persistent_but_may_soften
+      - per_user_and_per_location
 
   Presence_Coherence:
     pattern_file: "patterns/coherenceThroughPresence.yaml"
     purpose: >
-      Scenes respond to movement, acceleration, and stillness.
-      Teaches without UI or reward mechanics.
+      Scenes respond to stillness, movement, and acceleration
+      without UI prompts or reward loops.
 
 # ------------------------------------------------------------
-#  CURRENT GARDEN TRUTH
+#  CONTINUITY TRUTH
 # ------------------------------------------------------------
 Continuity_State:
   baseline_is_real: true
   foundation_is_strong: true
   narrative_is_cohesive: true
   technical_layer_is_coherent: true
-
   The_Garden_Knows_Itself: true
 
 # ------------------------------------------------------------
 #  SESSION CONTINUITY LOG
 # ------------------------------------------------------------
 SessionLedger:
-
   last_session:
-    date: 2025-12-19
-    intent: "Deep continuity grounding + documentation of reality"
+    date: 2026-01-17
+    intent: "Foundation stabilization and Garden/Gardener distinction anchoring"
     outcomes:
-      - "Established BASE_STATUS global Garden id: baseGardenStatus"
-
+      - "Added FOUNDATION_DISTINCTIONS as non-negotiable reference"
+      - "Clarified Garden identity and continuity rules"
