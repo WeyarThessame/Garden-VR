@@ -23,7 +23,7 @@ role:
     All scenes inherit this climate.
 
 non_negotiables:
-  reference: gate/GATE_NONNEGOTIABLES.md
+  reference: meta/GATE_NONNEGOTIABLES.md
   enforcement: absolute
 
 orientation:
