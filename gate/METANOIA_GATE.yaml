@@ -1,0 +1,153 @@
+# ============================================================
+#  METANOIA GATE — Garden Ground State
+#
+#  This file defines the ethical, attentional, and behavioral
+#  climate under which all Garden experiences occur.
+#
+#  The Gate is not a scene.
+#  It is the condition in which scenes are entered.
+#
+#  Handle with care.
+# ============================================================
+
+id: METANOIA_GATE
+type: gate
+status: canonical
+version: 0.1
+
+role:
+  description: >
+    The Metanoia Gate establishes the Garden’s ground state.
+    It removes performance pressure, affirms visitor agency,
+    and allows exploration without prescription.
+    All scenes inherit this climate.
+
+non_negotiables:
+  reference: gate/GATE_NONNEGOTIABLES.md
+  enforcement: absolute
+
+orientation:
+  canonical_text:
+    - "This is a place to explore who you are—"
+    - "perhaps to discover a new way,"
+    - "or to affirm what is already true for you."
+
+  delivery:
+    default: implicit
+    on_disorientation:
+      allowed: true
+      modes:
+        - attentional_redirection
+        - verbal_recitation
+    constraints:
+      - no_instruction
+      - no_explanation
+      - text_must_not_change
+
+metanoia_mark:
+  form: circular_inscription
+  location: underfoot
+  semantics: >
+    Metanoia is a condition already present,
+    not a destination to be approached.
+  legibility:
+    immediate: false
+    clarified_by: stillness
+
+environment:
+  geometry:
+    form: circular
+    hierarchy: none
+    privileged_direction: false
+
+  visibility:
+    garden_beyond:
+      state: partially_visible
+      mode: shadow_and_contour
+
+    fog:
+      purpose: attenuate_certainty
+      behavior:
+        stillness: increased_resolution
+        motion: decreased_resolution
+      constraints:
+        - never_blocks_access
+        - never_fully_clears
+        - does_not_reward
+        - does_not_punish
+
+audio:
+  presence: continuous
+  character: subtle_natural
+  elements:
+    - light_breeze_through_trees
+    - distant_birds
+    - ambient_insects_or_frogs_if_implied
+  behavior:
+    stillness: increased_clarity
+    motion: flattened_spatialization
+  constraints:
+    - no_musical_scoring
+    - no_attention_seeking_loops
+
+ui:
+  philosophy: environmental_only
+  prohibited:
+    - menus
+    - buttons
+    - prompts
+    - tutorials
+    - objectives
+    - progress_indicators
+    - confirmation_dialogs
+  allowed:
+    - environmental_response
+    - time_based_reveal
+    - body_based_interaction
+
+garden_voice:
+  default_state: silent
+
+  anger_or_rejection:
+    trigger: direct_address
+    response:
+      allowed: true
+      limit: one_line
+      canonical:
+        - "This is your journey."
+    constraints:
+      - no_follow_up
+      - no_persuasion
+      - silence_resumes
+
+  disorientation:
+    trigger: explicit_confusion_or_request
+    response:
+      allowed: true
+      content: canonical_orientation_text
+      modes:
+        - verbal
+        - attentional_redirection
+
+  internal_states:
+    mind_reading: prohibited
+    proactive_reassurance: prohibited
+
+returnability:
+  accessible: always
+  variation:
+    allowed: true
+    mode: weather_not_memory
+  constraints:
+    - never_becomes_checkpoint
+    - never_requires_completion
+
+inheritance:
+  applies_to_all_scenes: true
+  bypass:
+    physical_location: allowed
+    ethical_climate: never
+
+caretaker_note: >
+  This space must never attempt to win trust.
+  It keeps trust by letting go first.
