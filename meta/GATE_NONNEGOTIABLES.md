@@ -1,5 +1,7 @@
 Metanoia Gate — Non-Negotiables
 
+These constraints apply wherever the Garden exists, whether or not the Gate is physically present.
+
 This space has no objective.
 A visitor may leave having done nothing. This is success.
 
