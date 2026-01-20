@@ -1,0 +1,189 @@
+# ============================================================
+#  ORIENTATION PATH — First Remembering Space
+#
+#  This space follows the Metanoia Gate.
+#  It is where orientation emerges and the Garden
+#  begins to take shape through movement and attention.
+#
+#  No action here creates obligation.
+# ============================================================
+
+id: ORIENTATION_PATH
+type: path
+status: canonical
+version: 0.2
+
+role:
+  description: >
+    The Orientation Path allows the visitor to move freely
+    through a living ecology while the Garden begins to
+    take shape through patterns of use.
+    Interaction is permitted without permanence.
+    Orientation matters; alteration does not.
+
+relation_to_gate:
+  prerequisite: METANOIA_GATE
+  inherits_gate_climate: true
+  distinction: >
+    The Gate suspends consequence.
+    The Orientation Path allows residue without demand.
+
+environment:
+  nature:
+    elements:
+      - plants
+      - trees
+      - rocks
+      - soil
+      - air_flow
+      - standing_water
+      - flowing_water
+      - animals
+      - birds
+      - ambient_sound
+  character:
+    expansive: true
+    unmarked: true
+    non_hierarchical: true
+    restorative: true
+
+interaction:
+  allowed:
+    - touch_environment
+    - move_objects_lightly
+    - stack_rocks
+    - enter_water
+    - sit
+    - wander
+    - pause
+    - speak
+  constraints:
+    - no_tools
+    - no_inventory
+    - no_crafting
+    - no_object_mastery
+    - manipulation_is_shallow
+    - transformation_is_slow_and_reversible
+    - no_action_creates_obligation
+
+impermanence:
+  principle: >
+    Local actions do not persist.
+    The environment restores itself naturally.
+  behavior:
+    picked_flora: reappears_after_attention_shifts
+    moved_objects: return_to_rest_state
+    constructed_forms: erode_or_dissolve
+  user_awareness:
+    explicit_notification: false
+
+path_logic:
+  definition: >
+    The path is not marked.
+    It is an emergent thinning of the environment.
+  guidance:
+    method: effort_gradient
+    characteristics:
+      - firmer_ground_forward
+      - clearer_sound_ahead
+      - gentler_terrain
+  constraints:
+    - no_signage
+    - no_waypoints
+    - no_destination_markers
+
+memory:
+  allowed_to_remember:
+    - aggregate_movement_patterns
+    - zones_of_stillness
+    - frequently_traversed_routes
+    - areas_of_repeated_attention
+  explicitly_not_remembered:
+    - identity
+    - intent
+    - emotional_state
+    - spoken_content
+    - individual_actions
+    - constructed_forms
+  behavior:
+    formation: ecological
+    expression: environmental
+    visibility_to_user: indirect
+
+speech_and_expression:
+  interpretation: non_semantic
+  principle: >
+    Speech alters atmosphere, not meaning.
+    The Garden responds in form, not language.
+
+  responses:
+    neutral_speech:
+      effect:
+        - subtle_air_movement
+        - minor_sound_variation
+
+    anger_or_shouting:
+      effect:
+        - thunder_distant_or_near
+        - rising_wind
+        - darkening_cloud_cover
+      constraints:
+        - intensity_is_capped
+        - no_structural_change
+        - no_persistent_effect
+      resolution:
+        - weather_returns_to_baseline_when_expression_ceases
+
+    joy_or_laughter:
+      effect:
+        - increased_light_warmth
+        - heightened_color_vividness
+        - increased_bird_activity
+      constraints:
+        - no_unlocks
+        - no_accumulation
+      resolution:
+        - gradual_return_to_baseline
+
+    sadness_or_soft_expression:
+      effect:
+        - softened_light
+        - reduced_contrast
+        - quieter_soundscape
+        - sheltering_ambience
+      constraints:
+        - no_intensification
+        - no_mirroring_of_despair
+        - no_reward_for_continuation
+      intention: >
+        Support easing, not amplification.
+      resolution:
+        - slow_return_to_neutral_climate
+
+ui:
+  presence: none
+  philosophy: embodied_interaction_only
+  constraints:
+    - no_prompts
+    - no_tasks
+    - no_feedback_messages
+
+audio:
+  presence: continuous
+  role: orienting_without_directing
+  behavior:
+    stillness: increased_spatial_definition
+    motion: diffuse_soundscape
+
+ethics:
+  non_extractive: true
+  non_interpretive: true
+  non_evaluative: true
+  non_coercive: true
+
+caretaker_note: >
+  The Orientation Path must remain forgiving.
+  Emotion may move the weather here,
+  but it never reshapes the land.
+  Nothing is asked.
+  Nothing is taken.
