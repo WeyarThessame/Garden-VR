@@ -101,7 +101,8 @@ memory:
   explicitly_not_remembered:
     - identity
     - intent
-    - emotional_state
+    - emotional_state_as_data
+    - affective_labeling
     - spoken_content
     - individual_actions
     - constructed_forms
@@ -109,6 +110,9 @@ memory:
     formation: ecological
     expression: environmental
     visibility_to_user: indirect
+    note: >
+      Emotional presence may influence form and atmosphere,
+      without being identified, measured, or retained as state.
 
 speech_and_expression:
   interpretation: non_semantic
