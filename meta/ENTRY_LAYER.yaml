@@ -1,0 +1,186 @@
+# ============================================================
+#  ENTRY LAYER — Access, Consent, and Safety
+#
+#  This file defines all behavior and language that occurs
+#  BEFORE the Metanoia Gate.
+#
+#  This layer is NOT part of the Garden.
+#  It contains no symbolism, no narrative, and no caretaker.
+#
+#  Purpose:
+#    - Establish informed consent
+#    - Provide safety guarantees
+#    - Prevent expectation-setting
+# ============================================================
+
+id: ENTRY_LAYER
+status: canonical
+version: 1.0
+
+classification:
+  part_of_garden: false
+  experiential: false
+  symbolic: false
+  narrative: false
+
+# ------------------------------------------------------------
+#  SESSION ACCESS
+# ------------------------------------------------------------
+
+session:
+  description: >
+    Handles access, configuration, and technical readiness.
+    This phase must feel like ordinary software use.
+
+  requirements:
+    - session_initialization
+    - hardware_calibration
+    - accessibility_preferences
+
+  prohibitions:
+    - no_garden_imagery
+    - no_sound_design
+    - no_animation
+    - no_story_language
+    - no emotional framing
+
+# ------------------------------------------------------------
+#  DATA & TRACKING DISCLOSURE
+# ------------------------------------------------------------
+
+data_handling:
+  statement:
+    - >
+      This environment does not track you as a person.
+    - >
+      It does not collect identity, personal history,
+      emotional profiles, or behavioral records.
+    - >
+      It does not store voice recordings, facial data,
+      or biometric identifiers.
+    - >
+      Movement, stillness, and sound may be registered
+      temporarily to shape the immediate environment.
+    - >
+      This information is discarded when the session ends.
+    - >
+      Nothing is reviewed, scored, analyzed, or retained
+      after you leave.
+
+  guarantees:
+    - no_identity_tracking
+    - no_persistent_behavioral_storage
+    - no emotional classification
+    - no post-session analysis
+
+# ------------------------------------------------------------
+#  BOUNDARY STATEMENT
+# ------------------------------------------------------------
+
+boundary:
+  purpose: >
+    Establish expectations without framing experience
+    or implying outcome.
+
+  statement:
+    - >
+      This is a contemplative virtual environment.
+    - >
+      It does not provide instruction, therapy,
+      interpretation, or answers.
+    - >
+      It does not guide behavior or reward engagement.
+    - >
+      You are not expected to do anything here.
+    - >
+      You may leave at any time.
+
+# ------------------------------------------------------------
+#  FINAL PRE-ENTRY SENTENCE
+# ------------------------------------------------------------
+
+pre_entry_notice:
+  sentence: >
+    A space without instructions or guidance.
+
+  tone:
+    factual: true
+    non_poetic: true
+    non_inviting: true
+
+# ------------------------------------------------------------
+#  EMERGENCY EXIT
+# ------------------------------------------------------------
+
+emergency_exit:
+  purpose: >
+    Provide immediate termination of the experience
+    without interpretation or consequence.
+
+  spoken_phrase:
+    phrase: "exit now"
+    behavior:
+      - immediate_environment_termination
+      - no_confirmation
+      - no_transition
+      - no_system_ui
+      - return_to_physical_world
+
+  hardware_fallbacks:
+    allowed: true
+    behavior:
+      - immediate_termination
+      - system_level_exit
+
+  constraints:
+    - no_garden_response
+    - no_memory
+    - no logging
+    - no delay
+
+# ------------------------------------------------------------
+#  TRANSITION INTO THE GATE
+# ------------------------------------------------------------
+
+transition_to_gate:
+  principle:
+    - no spectacle
+    - no mystery
+    - no narrative framing
+    - no game-like cues
+
+  method:
+    type: environmental_settling
+
+    description: >
+      The environment emerges gradually from a neutral,
+      static state. Subtle motion, sound, and light return
+      without animation cues or reveal mechanics.
+
+  requirements:
+    - no fade_to_black
+    - no musical swell
+    - no camera movement
+    - no loading indicators
+    - no explicit timing cues
+
+  outcome:
+    - user_orients_spatially
+    - embodiment_precedes_gate
+    - gate_is_encountered_not_revealed
+
+# ------------------------------------------------------------
+#  ETHICAL CONSTRAINTS
+# ------------------------------------------------------------
+
+ethics:
+  non_coercive: true
+  non_persuasive: true
+  non_interpretive: true
+  non_extractive: true
+
+caretaker_note: >
+  The Entry Layer exists to remove pressure, not create it.
+  Its success is measured by invisibility.
+  Nothing here should be remembered by the visitor,
+  except that they were free to leave.
