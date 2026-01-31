@@ -2,8 +2,8 @@
 #  ORIENTATION PATH — First Remembering Space
 #
 #  This space follows the Metanoia Gate.
-#  It is where orientation emerges and the Garden
-#  begins to take shape through movement and attention.
+#  It is where orientation emerges through movement,
+#  attention, and gentle wandering.
 #
 #  No action here creates obligation.
 # ============================================================
@@ -11,13 +11,14 @@
 id: ORIENTATION_PATH
 type: path
 status: canonical
-version: 0.2
+version: 0.3   # incremented due to scope clarification
 
 role:
   description: >
     The Orientation Path allows the visitor to move freely
-    through a living ecology while the Garden begins to
-    take shape through patterns of use.
+    through a vast, living ecology.
+    The Garden begins to take shape through patterns of
+    movement and attention, not through discovery.
     Interaction is permitted without permanence.
     Orientation matters; alteration does not.
 
@@ -25,10 +26,16 @@ relation_to_gate:
   prerequisite: METANOIA_GATE
   inherits_gate_climate: true
   distinction: >
-    The Gate suspends consequence.
-    The Orientation Path allows residue without demand.
+    The Gate suspends consequence entirely.
+    The Orientation Path allows gentle residue
+    without demand, instruction, or accumulation.
 
 environment:
+  scale:
+    perceived: intimate
+    actual: vast          # important: supports unlimited wandering
+    boundaries_visible: false
+
   nature:
     elements:
       - plants
@@ -41,15 +48,33 @@ environment:
       - animals
       - birds
       - ambient_sound
+
   character:
     expansive: true
     unmarked: true
     non_hierarchical: true
     restorative: true
+    navigable_without_direction: true
+
+  terrain_features:
+    stream:
+      presence: true
+      behavior:
+        crosses_path: true
+        followable: true
+        alignment_with_path: indirect
+        looping: true              # following eventually returns to a path
+        emphasis: none
+      cascade:
+        presence: possible
+        effects:
+          - localized_mist
+          - faint_prismatic_refraction   # hint of rainbow, never sky-wide
 
 interaction:
   allowed:
     - touch_environment
+    - pick_flora
     - move_objects_lightly
     - stack_rocks
     - enter_water
@@ -62,35 +87,60 @@ interaction:
     - no_inventory
     - no_crafting
     - no_object_mastery
+    - no_hidden_discoveries
+    - no_event_triggers
+    - no_spectacle
     - manipulation_is_shallow
     - transformation_is_slow_and_reversible
     - no_action_creates_obligation
 
 impermanence:
   principle: >
-    Local actions do not persist.
-    The environment restores itself naturally.
+    All local actions are temporary.
+    The environment restores itself when attention moves on.
   behavior:
     picked_flora: reappears_after_attention_shifts
     moved_objects: return_to_rest_state
-    constructed_forms: erode_or_dissolve
+    stacked_forms: gently_unstack_or_erode
   user_awareness:
     explicit_notification: false
 
 path_logic:
   definition: >
-    The path is not marked.
-    It is an emergent thinning of the environment.
+    The path is not marked and never announced.
+    It emerges through ease of movement and terrain response.
   guidance:
     method: effort_gradient
     characteristics:
-      - firmer_ground_forward
-      - clearer_sound_ahead
-      - gentler_terrain
+      - firmer_ground
+      - fewer_obstacles
+      - clearer_soundscape
+      - gentler_slope
+  return_behavior:
+    wandering_returns_to_path: true
+    recognition: implicit          # the body notices, the mind is not told
   constraints:
     - no_signage
     - no_waypoints
     - no_destination_markers
+
+atmosphere:
+  baseline:
+    weather: clear
+    light: natural
+  dynamic_range:
+    allowed:
+      - light_spring_rain
+      - post_rain_brightness
+      - softened_overcast
+    disallowed:
+      - storms_with_threat
+      - discomfort_cues
+      - survival_signals
+  transitions:
+    smooth: true
+    reversible: true
+    non_cumulative: true
 
 memory:
   allowed_to_remember:
@@ -111,13 +161,13 @@ memory:
     expression: environmental
     visibility_to_user: indirect
     note: >
-      Emotional presence may influence form and atmosphere,
+      Emotional presence may influence form and atmosphere
       without being identified, measured, or retained as state.
 
 speech_and_expression:
   interpretation: non_semantic
   principle: >
-    Speech alters atmosphere, not meaning.
+    Expression alters atmosphere, not meaning.
     The Garden responds in form, not language.
 
   responses:
@@ -128,15 +178,15 @@ speech_and_expression:
 
     anger_or_shouting:
       effect:
-        - thunder_distant_or_near
-        - rising_wind
-        - darkening_cloud_cover
+        - increased_wind
+        - cloud_gathering
+        - distant_thunder
       constraints:
         - intensity_is_capped
+        - no_threat
         - no_structural_change
-        - no_persistent_effect
       resolution:
-        - weather_returns_to_baseline_when_expression_ceases
+        - gradual_return_to_baseline_when_expression_ceases
 
     joy_or_laughter:
       effect:
@@ -160,9 +210,26 @@ speech_and_expression:
         - no_mirroring_of_despair
         - no_reward_for_continuation
       intention: >
-        Support easing, not amplification.
+        Support easing, not engagement.
       resolution:
         - slow_return_to_neutral_climate
+
+possible_encounters:
+  grove_of_letting_go:
+    availability: conditional
+    permanence: none
+    announcement: none
+
+  archive_of_feeling_given_form:
+    availability: rare
+    permanence: none
+    announcement: none
+
+  listening_space:
+    type: chamber_of_winds    # canonical choice for Orientation Path
+    availability: rare
+    permanence: none
+    announcement: none
 
 ui:
   presence: none
@@ -171,6 +238,7 @@ ui:
     - no_prompts
     - no_tasks
     - no_feedback_messages
+    - no_explanatory_text
 
 audio:
   presence: continuous
@@ -187,6 +255,7 @@ ethics:
 
 caretaker_note: >
   The Orientation Path must remain forgiving.
+  It allows wandering without loss.
   Emotion may move the weather here,
   but it never reshapes the land.
   Nothing is asked.
