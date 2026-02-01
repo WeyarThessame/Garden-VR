@@ -77,6 +77,12 @@ Garden:
         Upon exit, the space dissolves and does not persist behind the visitor.
         Re-entry never restores the same instance.
 
+    - id: emergence_commitment
+      rule: >
+        If an emergent space begins opening, the Garden commits and completes the opening.
+        Post-beginning fluctuations may soften intensity or slow the opening, but never
+        revoke access and never reposition the visitor.
+
   identity_notes: >
     The Garden is the enduring entity. It persists across time,
     remembers visitors, and holds the world’s climate.
@@ -283,7 +289,9 @@ Continuity_State:
 SessionLedger:
   last_session:
     date: 2026-01-31
-    intent: "Canonical space definition and presence/exit invariants"
+    intent: "Orientation Path canonical stabilization"
     outcomes:
       - "Added SPACE_STRUCTURE as authoritative foundational document"
       - "Anchored presence, exit, and dissolution as Garden invariants"
+      - "Anchored emergence commitment invariant (opening completes once begun)"
+      - "Updated ORIENTATION_PATH with space_structure, presence_and_exit, and emergence_policy"
