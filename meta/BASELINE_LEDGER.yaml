@@ -10,8 +10,8 @@
 #  Every update represents a meaningful evolution.
 # ============================================================
 
-ledger_version: 1.1
-last_updated: 2026-01-17
+ledger_version: 1.2
+last_updated: 2026-01-31
 
 # ------------------------------------------------------------
 #  FOUNDATIONAL RECORDS
@@ -22,6 +22,14 @@ Foundational_Documents:
       purpose: >
         Defines non-negotiable Garden/Gardener distinctions,
         continuity constraints, and ethical refusals.
+      change_discipline: >
+        Changes are rare, deliberate, and explicitly recorded.
+
+    - file: "meta/SPACE_STRUCTURE.md"
+      purpose: >
+        Defines what constitutes a Garden space, including
+        focal points, surrounding boundaries, perceptual exit,
+        and dissolution after exit.
       change_discipline: >
         Changes are rare, deliberate, and explicitly recorded.
 
@@ -57,6 +65,17 @@ Garden:
     - no_gamification
     - meaning_over_mechanics
     - integrity_over_scale
+
+  invariants:
+    - id: presence_and_exit
+      rule: >
+        Once a visitor enters a Garden space, presence is unconditional.
+        The visitor may remain as long as they wish.
+        Leaving a space is always voluntary.
+        A visitor is considered to have exited a space when its focal
+        point is no longer perceivable.
+        Upon exit, the space dissolves and does not persist behind the visitor.
+        Re-entry never restores the same instance.
 
   identity_notes: >
     The Garden is the enduring entity. It persists across time,
@@ -263,8 +282,8 @@ Continuity_State:
 # ------------------------------------------------------------
 SessionLedger:
   last_session:
-    date: 2026-01-17
-    intent: "Foundation stabilization and Garden/Gardener distinction anchoring"
+    date: 2026-01-31
+    intent: "Canonical space definition and presence/exit invariants"
     outcomes:
-      - "Added FOUNDATION_DISTINCTIONS as non-negotiable reference"
-      - "Clarified Garden identity and continuity rules"
+      - "Added SPACE_STRUCTURE as authoritative foundational document"
+      - "Anchored presence, exit, and dissolution as Garden invariants"
