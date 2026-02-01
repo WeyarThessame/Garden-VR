@@ -11,7 +11,7 @@
 id: ORIENTATION_PATH
 type: path
 status: canonical
-version: 0.3   # incremented due to scope clarification
+version: 0.4   # incremented due to presence/exit + space-structure invariants
 
 role:
   description: >
@@ -29,6 +29,51 @@ relation_to_gate:
     The Gate suspends consequence entirely.
     The Orientation Path allows gentle residue
     without demand, instruction, or accumulation.
+
+# ------------------------------------------------------------
+#  SPACE STRUCTURE — CANONICAL INVARIANTS (applies here)
+# ------------------------------------------------------------
+space_structure:
+  principle: >
+    Every Garden space has a focal point and a surrounding boundary.
+    Boundaries may be environmental, perceptual, or architectural.
+    Boundaries need not be visible; they must functionally limit
+    passage or perception.
+  focal_point:
+    required: true
+    note: >
+      In Orientation, focal points may be subtle (sound, light, terrain ease)
+      or rare (emergent chambers/spaces). The path itself is not "the" focal;
+      focality emerges locally.
+  boundary:
+    required: true
+    visibility: false
+    forms_allowed:
+      - terrain_occlusion
+      - curvature
+      - vegetation_density
+      - light_falloff
+      - fog_or_mist
+      - architectural_enclosure
+      - distance_and_sound_attenuation
+
+# ------------------------------------------------------------
+#  PRESENCE + EXIT — CANONICAL INVARIANTS (applies here)
+# ------------------------------------------------------------
+presence_and_exit:
+  presence_is_unconditional: true
+  stay_duration: unlimited
+  exit_is_user_initiated_only: true
+  exit_definition: >
+    A visitor is considered to have exited when the focal point
+    of the currently inhabited space is no longer perceivable.
+  after_exit:
+    dissolve_instance: true
+    persists_behind_visitor: false
+    same_instance_on_reentry: false
+  note: >
+    No "correct frame of mind" is required to leave.
+    Leaving is always allowed. Staying is always allowed.
 
 environment:
   scale:
@@ -214,22 +259,48 @@ speech_and_expression:
       resolution:
         - slow_return_to_neutral_climate
 
+# ------------------------------------------------------------
+#  EMERGENCE POLICY — COMMITMENT MUST COMPLETE
+# ------------------------------------------------------------
+emergence_policy:
+  principle: >
+    If an emergent space begins opening (a chamber, grove, archive access, etc.),
+    the Garden commits and completes the opening.
+    Post-beginning fluctuations may soften intensity but never revoke the opening.
+  model: latch_commit
+  revocation_allowed: false
+  modulation_allowed: true
+  modulation_scope:
+    - soften_sensory_intensity
+    - slow_opening_pace
+    - increase_grounding_cues
+  prohibitions:
+    - no_forced_return
+    - no_ejection
+    - no_user_repositioning
+
 possible_encounters:
   grove_of_letting_go:
     availability: conditional
     permanence: none
     announcement: none
+    note: >
+      Emerges as its own space; once exited (focal lost), it dissolves and does not persist behind.
 
   archive_of_feeling_given_form:
     availability: rare
     permanence: none
     announcement: none
+    note: >
+      Emerges as its own space; once exited (focal lost), it dissolves and does not persist behind.
 
   listening_space:
     type: chamber_of_winds    # canonical choice for Orientation Path
     availability: rare
     permanence: none
     announcement: none
+    note: >
+      A chamber is an architectural boundary case and is explicitly allowed under Space Structure.
 
 ui:
   presence: none
