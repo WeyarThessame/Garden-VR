@@ -47,6 +47,14 @@ Foundational_Documents:
       change_discipline: >
         Changes are rare and deliberate; schema is boring on purpose.
 
+    - file: "meta/POSTURAL_AFFORDANCES.md"
+      purpose: >
+        Records the principle that some Garden spaces are composed
+        to be best met from certain bodily postures without instruction,
+        requirement, or evaluation.
+      change_discipline: >
+        Changes are rare, deliberate, and explicitly recorded.
+
 # ------------------------------------------------------------
 #  GARDEN — CORE TRUTH
 # ------------------------------------------------------------
