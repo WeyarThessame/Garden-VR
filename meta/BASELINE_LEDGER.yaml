@@ -73,6 +73,7 @@ Garden:
     - no_gamification
     - meaning_over_mechanics
     - integrity_over_scale
+    - terrain_allows_encounter
 
   invariants:
     - id: presence_and_exit
