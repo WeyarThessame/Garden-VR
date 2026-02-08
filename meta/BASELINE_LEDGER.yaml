@@ -293,8 +293,31 @@ Continuity_State:
   The_Garden_Knows_Itself: true
 
 # ------------------------------------------------------------
+#  STRUCTURAL MILESTONES
+# ------------------------------------------------------------
+Structural_Milestones:
+  - id: orientation_continuity
+    declared: 2026-02-07
+    significance: >
+      Orientation terrain established as geographically continuous
+      from Metanoia Gate to Archive, transitioning the Garden
+      from conceptual layout to walkable world-body.
+
+# ------------------------------------------------------------
 #  SESSION CONTINUITY LOG
 # ------------------------------------------------------------
+
+SessionLedger:
+  last_session:
+    date: 2026-02-07
+    intent: "Orientation terrain consolidation"
+    outcomes:
+      - "Declared the Orientation Path geographically continuous from Metanoia Gate to Archive"
+      - "Established terrain-led encounter as governing design logic"
+      - "Confirmed four permitted presences along Orientation: Meadow, Listening Rift, Grove, Archive"
+      - "Defined Archive as the first inward-leaning human structure without ritualization"
+      - "Stabilized the pre-Bridge sequence as organism preparation rather than psychological instruction"
+
 last_session:
   date: 2026-02-07
   intent: "Orientation terrain consolidation"
