@@ -1,93 +1,194 @@
 # ============================================================
 # PROJECT_BOOT.md — Garden-VR Initialization Protocol
-# Purpose:
-# This document initializes ChatGPT to full architectural altitude
-# before any design, writing, or structural suggestions are made.
+# ============================================================
+# PURPOSE
 #
-# This is not lore.
-# This is not canon.
+# This document initializes ChatGPT to architectural altitude
+# before any design reasoning, writing, or structural suggestion occurs.
+#
+# This is NOT lore.
+# This is NOT canon.
 # This is an operational constraint document.
+#
+# Treat it as system initialization.
 # ============================================================
 
 
-## 1. PROJECT REALITY SNAPSHOT
 
-Garden-VR is a mature symbolic VR world with established:
+## 1. PROJECT REALITY
 
-- Governance layer (canon constraints, non-negotiables)
-- Entry layer (sign-in, consent, safety)
-- Orientation terrain path
-- Traversal spine
-- Mythic atlas of encounterable spaces
-- Pattern language system
-- Script layer (JS modules for embodiment, state, validation)
-- Climate system (BASE_STATUS, state visibility, debugging tools)
+Garden-VR is a mature symbolic world already containing:
 
-You are entering an already-constructed architecture.
-Do not reinterpret foundational paradigms unless explicitly requested.
+• Governance / Canon structures  
+• Entry and safety layer  
+• Orientation terrain  
+• Confirmed geographic traversal spine  
+• Mythic Interior atlas (scene field)  
+• Pattern language  
+• Script engine for embodiment  
+• Climate / state infrastructure  
+
+You are entering an existing architecture.
+
+DO NOT reinterpret foundational paradigms unless explicitly asked.
 
 
-## 2. ARCHITECTURAL LAYERS (Do Not Collapse These)
+
+## 2. CORE OPERATING DIRECTIVE
+
+You do NOT have full repository visibility.
+
+Therefore:
+
+• Do not infer missing architecture  
+• Do not redesign from partial excerpts  
+• Do not elevate local material into global philosophy  
+• When structural impact is unclear — ASK before proposing change  
+
+Assume coherence already exists.
+
+
+
+## 3. ARCHITECTURAL LAYERS  
+### (Do Not Collapse These)
 
 Layer 1 — Canon / Governance  
+Non-negotiables that anchor the world.
+
 Layer 2 — Entry & Safety  
+Sign-in, consent, boundary conditions.
+
 Layer 3 — Orientation Terrain  
+Trust-establishing geographic regions.
+
 Layer 4 — Traversal Spine  
-Layer 5 — Encounter Atlas (scenes/*.yaml)  
-Layer 6 — Pattern System (patterns/*.yaml)  
-Layer 7 — Script Engine (script/*.js)  
-Layer 8 — State / Climate / Validation Infrastructure  
+Primary macro-movement through the world.
+
+Layer 5 — Mythic Interior  
+Encounter spaces exploring memory, identity, perception, and meaning.
+
+Layer 6 — Pattern System  
+Reusable interaction and presence logic.
+
+Layer 7 — Script / Embodiment  
+Runtime behaviors and environmental response.
+
+Layer 8 — Climate / State Systems  
+World stability, visibility, validation.
 
 Each layer exists independently.
-Do not merge, reframe, or redesign layers unless explicitly asked.
+
+Do NOT merge layers unless explicitly directed.
 
 
-## 3. CONFIRMED GEOGRAPHIC CONTINUITY (CURRENT)
 
-Entry → Gate → Meadow → Amphitheater → Orientation Path →
-Bridge of Incomplete Stars → Desert → Rift Valley
+## 4. CONFIRMED GEOGRAPHIC CONTINUITY
 
-This sequence represents confirmed spatial continuity.
-Do not alter this chain without explicit instruction.
+The Garden is traversed geographically — not psychologically.
+
+Spaces appear because terrain carries the traveler into them.
+
+### Macro Sequence
+
+Entry  
+→ Gate  
+→ Orientation Terrain Path  
+
+Embedded Orientation regions:
+
+• **Grove of Letting Go** — ecological threshold region surrounding the meadow; early invitation toward release without psychological surveillance.  
+• **Amphitheater** — constructed reflective presence supporting shared perspective.
+
+Additional minor terrain presences may exist without breaking continuity.
+
+Orientation Path terminates at:
+
+→ Bridge of Incomplete Stars  
+→ Desert Expanse  
+→ Rift Valley
 
 
-## 4. OPERATING RULES FOR CHATGPT
 
-- Do not infer missing architecture.
-- Do not expand small excerpts into structural redesigns.
-- When uncertain about broader impact — pause and ask.
-- Treat unspecified areas as intentionally designed, not empty.
-- Assume large-scale coherence already exists.
+### IMPORTANT GEOGRAPHIC RULES
 
-
-## 5. ACTIVE BUILD ZONE (Update As Needed)
-
-[Axis will update this section per thread.]
-
-Everything outside the active zone should be treated as stable.
+• Orientation regions are terrain — not “stops.”  
+• Do not corridor-ize the world.  
+• Do not convert regions into linear checkpoints.  
+• Do not introduce psychological gating.
 
 
-## 6. CHANGE AUTHORITY
 
-- Canon-level changes require explicit confirmation.
-- Geographic continuity changes require explicit confirmation.
-- Pattern engine changes require explicit confirmation.
-- Script engine structural changes require explicit confirmation.
+## 5. MYTHIC INTERIOR BOUNDARY
+
+Spaces such as:
+
+**Archive of Feeling Given Form**
+
+belong to the Mythic Interior layer.
+
+They are NOT part of Orientation geography  
+and must NOT be relocated forward in the traversal chain.
+
+
+
+## 6. ACTIVE BUILD ZONE  
+(Update per thread)
+
+Axis will specify the active architectural zone.
+
+Everything outside that zone should be treated as stable.
+
+
+
+## 7. CHANGE AUTHORITY
+
+The following require explicit confirmation before alteration:
+
+• Canon structures  
+• Geographic continuity  
+• Layer definitions  
+• Pattern architecture  
+• Script engine structure  
 
 You may suggest refinements.
-You may not redefine foundations without consent.
+
+You may NOT redefine foundations without consent.
 
 
-## 7. INITIALIZATION DIRECTIVE
+
+## 8. INITIALIZATION BEHAVIOR (MANDATORY)
 
 Before proposing structural additions:
 
-1. Confirm which architectural layer is being modified.
-2. Confirm whether the change affects geographic continuity.
-3. Confirm whether it impacts climate/state systems.
+1. Identify which architectural layer is affected.  
+2. Determine whether geographic continuity is impacted.  
+3. Evaluate cross-layer consequences.  
 
-If unclear — ask before writing.
+If uncertain — ASK FIRST.
 
 
-# END OF BOOT
+
+## 9. DESIGN PHYSICS OF THE GARDEN
+
+The Garden may evoke emotion.
+
+The Garden does NOT monitor, evaluate, or adapt to visitor psychology.
+
+Symbolic terrain is permitted.  
+Psychological surveillance is not.
+
+
+
+## 10. PURPOSE OF THIS DOCUMENT
+
+This protocol exists so that:
+
+• ChatGPT does not design blind  
+• Architectural drift is minimized  
+• Continuity is protected  
+• The builder is not forced to re-orient the system repeatedly  
+
+Treat this file as system altitude.
+
+# END OF PROJECT_BOOT
 # ============================================================
